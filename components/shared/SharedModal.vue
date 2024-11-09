@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { useTemplateRef } from "vue";
-
 const props = defineProps<{
   controller: ReturnType<typeof useModal>;
 }>();
@@ -14,7 +12,7 @@ watch(escape, () => {
   isOpen.value && close();
 });
 
-const modalContentElement = useTemplateRef("modalContentElement");
+const modalContentElement = ref();
 onClickOutside(modalContentElement, () => close());
 </script>
 
@@ -30,10 +28,10 @@ onClickOutside(modalContentElement, () => close());
     >
       <div
         v-show="isOpen"
-        class="fixed z-10 inset-0 overflow-y-auto bg-black bg-opacity-50"
+        class="fixed z-10 inset-0 overflow-y-auto bg-black bg-opacity-60"
       >
         <div
-          class="flex items-center justify-center min-h-screen lg:-mt-3% text-center"
+          class="flex items-center justify-center min-h-screen lg:-mt-1% text-center"
         >
           <Transition
             enter-active-class="transition ease-out duration-500 transform "
@@ -47,7 +45,7 @@ onClickOutside(modalContentElement, () => close());
               v-if="isOpen"
               id="modal-content"
               ref="modalContentElement"
-              class="bg-white rounded-lg text-left overflow-hidden shadow-xl p-8"
+              class="bg-white text-left overflow-hidden shadow-xl"
               role="dialog"
               aria-modal="true"
               aria-labelledby="modal-headline"
@@ -60,3 +58,9 @@ onClickOutside(modalContentElement, () => close());
     </Transition>
   </Teleport>
 </template>
+<style scoped>
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+</style>
