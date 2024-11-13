@@ -1,22 +1,46 @@
 <script setup lang="ts">
+import { useFetchData } from "~/composables/configurator/fetchData";
 import SideBarMenu from "./SideBarMenu.vue";
 const {
   price,
   selectedLabel,
+  groupLabels,
   nextGroupLabel,
   selectedGroupIndex,
   setCurrentGroup,
-}: any = inject("sideBar");
+}: any = inject("allData");
+const url =
+  "https://kitchenz-shopware6.ddev.site/store-api/product-configurator/full-price-calculate";
 
 const isMenuVisible = ref<boolean>(false);
 function toggleMenuVisible() {
   isMenuVisible.value = !isMenuVisible.value;
 }
 function nextGroup() {
-  if (selectedLabel.value[selectedGroupIndex.value]) {
+  console.log(selectedLabel.value);
+  if (
+    selectedLabel.value[selectedGroupIndex.value] &&
+    selectedGroupIndex.value < groupLabels.value.length - 1
+  ) {
     selectedGroupIndex.value++;
     setCurrentGroup(selectedGroupIndex.value, nextGroupLabel.value);
   }
+  //  else {
+  //   useFetchData({
+  //     url,
+  //     method: "POST",
+  //     headers: { "sw-access-key": "SWSCADD3ZW5YA01PDXY3WU44BA" },
+  //     payload: {
+  //       options: [
+  //         {
+  //           oid: "018b299e66ad7141b0ef8f85420c5903",
+  //           value: null,
+  //         },
+  //       ],
+  //       product_id: "acb605a270884227901c682ddd341038",
+  //     },
+  //   });
+  // }
 }
 function previousGroup() {
   selectedGroupIndex.value--;
@@ -54,7 +78,10 @@ function previousGroup() {
           @click="nextGroup"
           class="bg-[#404853] w-full p-5 sm:p-2 text-white text-base font-medium"
         >
-          Weiter mit {{ nextGroupLabel }}
+          <span v-if="selectedGroupIndex < groupLabels.length - 1"
+            >Weiter mit {{ nextGroupLabel }}
+          </span>
+          <span v-else> In den Warenkorb </span>
         </button>
       </div>
 

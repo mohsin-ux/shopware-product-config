@@ -4,14 +4,23 @@ export const useConfigData = async (
   currentProfileIndex: Ref<number>,
   currentGroupIndex: Ref<number>
 ) => {
-  const { parsedData } = await useFetchData();
+  const url =
+    "https://shopware.grandmarkt.de/store-api/product-configurator/get-configuration/069be5c6d51244ee8d39a88f216f5978";
+
+  const { parsedData, loading} = await useFetchData({
+    url: url,
+    method: "GET",
+    headers: { "sw-access-key": "SWSCADD3ZW5YA01PDXY3WU44BA" },
+  });
   console.log(parsedData);
 
   const firstGroupOfAllProfiles = parsedData.map(
     (profileData: any) => profileData.groups[0]
   );
-  const allProfilesLabels = firstGroupOfAllProfiles.map(
-    (profilesLabel: any) => profilesLabel.options[0].label
+  const allProfilesLabels = ref<string[]>(
+    firstGroupOfAllProfiles.map(
+      (profilesLabel: any) => profilesLabel.options[0].label
+    )
   );
   const groupLabels = computed(() =>
     parsedData[currentProfileIndex.value].groups.map(
@@ -42,9 +51,7 @@ export const useConfigData = async (
       parsedData[currentProfileIndex.value].groups[currentGroupIndex.value].type
   );
 
-  const price = computed(
-    () => 
-      parsedData[currentProfileIndex.value].price
-  )
-  return { price, type, allProfilesLabels, groupLabels, optionLabels };
+  const price = computed(() => parsedData[currentProfileIndex.value].price);
+
+  return { price, loading, type, allProfilesLabels, groupLabels, optionLabels};
 };

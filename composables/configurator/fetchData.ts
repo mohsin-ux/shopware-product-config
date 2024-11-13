@@ -1,20 +1,27 @@
-export const useFetchData = async (): Promise<any> => {
-  const url =
-    "https://shopware.grandmarkt.de/store-api/product-configurator/get-configuration/069be5c6d51244ee8d39a88f216f5978";
-
+export const useFetchData = async <T = any>({
+  url,
+  method,
+  headers,
+  payload = null,
+}: {
+  url: string;
+  method: "GET" | "POST";
+  headers?: Record<string, string>;
+  payload?: any;
+}): Promise<any> => {
+  console.log(`call this method`)
   const { data, error, pending } = await useFetch<any>(url, {
-    method: "GET",
-    headers: {
-      "sw-access-key": `SWSCADD3ZW5YA01PDXY3WU44BA`,
-    },
+    method, 
+    headers,
+    ...(method === "POST" && { body: JSON.stringify(payload) }),
   });
-  // if (!data.value) {
-  //   throw new Error("No data received from the API");
-  // }
+  console.log(pending.value)
+  if (!data.value) {
+    throw new Error("No data received from the API");
+  }
 
   const responseData: any = JSON.parse(JSON.stringify(data.value));
   const parsedData: any = Object.values(responseData);
 
   return { parsedData, loading: pending.value, error: error.value };
 };
-  

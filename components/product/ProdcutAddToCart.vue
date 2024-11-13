@@ -1,36 +1,50 @@
 <script setup lang="ts">
-import type { Product } from "@shopware-pwa/types";
+// import type { Product } from "@shopware-pwa/types";
 import SharedModal from "../shared/SharedModal.vue";
-import { useFetchData } from "~/composables/configurator/fetchData";
+import Loading from "~/components/product/Loading.vue";
 
-const { error, loading }: any = useFetchData();
-const { pushSuccess } = useNotifications();
-const props = defineProps<{
-  product: Product;
-}>();
-const { product } = toRefs(props);
-const { codeErrorsNotification } = useCartNotification();
-const { addToCart, quantity } = useAddToCart(product);
+// import { useConfigState } from "~/composables/configurator/configState";
 
-const addToCartProxy = async () => {
-  await addToCart();
-  codeErrorsNotification();
-  pushSuccess(`${props.product?.translated?.name} has been added to cart.`);
-};
+// console.log(loading);
 
-// const loading = ref(true);
-// onMounted(() => {
-//   loading.value = false;
-// });
+// const { pushSuccess } = useNotifications();
+// const props = defineProps<{
+//   product: Product;
+// }>();
+// const { product } = toRefs(props);
+// const { codeErrorsNotification } = useCartNotification();
+// const { addToCart, quantity } = useAddToCart(product);
+
+// const addToCartProxy = async () => {
+//   await addToCart();
+//   codeErrorsNotification();
+//   pushSuccess(`${props.product?.translated?.name} has been added to cart.`);
+// };
+const isRender = ref(false);
+const pageLoading = ref(true);
+onMounted(() => {
+  pageLoading.value = false;
+});
 const productQuantity = ref<number>(1);
 function increment() {
   productQuantity.value++;
-  console.log("hello sir why this is not comming");
 }
 function decrement() {
   productQuantity.value--;
 }
 const kitchenzModalController = useModal();
+
+function handleRender() {
+  console.log(
+    "render function is called dynamically for this app and this functionality"
+  );
+  console.log(isRender.value);
+  isRender.value = true;
+}
+function handleClick() {
+  isRender.value = false;
+  kitchenzModalController.open();
+}
 </script>
 
 <template>
@@ -50,16 +64,19 @@ const kitchenzModalController = useModal();
     </div>
     <div class="basis-3/4 ml-4">
       <button
-        class="py-2 px-6 mt-4 bg-sky-950 text-[#ffffff] border border-transparent flex items-center justify-center text-base font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+        class="py-2 px-6 mt-4 bg-sky-950 text-[#ffffff] border border-transparent flex items-center justify-center text-base font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 disabled:opacity-50 disabled:cursor-not-allowed"
         data-testid="add-to-cart-button"
-        :disabled="loading"
-        @click.prevent="kitchenzModalController.open"
+        :disabled="pageLoading"
+        @click.prevent="handleClick"
       >
         konfigurieren
       </button>
 
       <SharedModal :controller="kitchenzModalController">
-        <ProductConfigurator @success="kitchenzModalController.close" />
+        <loading v-if="!isRender" />
+
+        <ProductConfigurator @dataReady="handleRender" />
+        <!-- @success="kitchenzModalController.close" -->
       </SharedModal>
     </div>
   </div>

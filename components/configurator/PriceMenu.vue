@@ -1,7 +1,5 @@
 <script setup lang="ts">
-const { optionLabels }: any = inject("sideBar");
-console.log(optionLabels.value);
-
+const { optionLabels }: any = inject("allData");
 </script>
 
 <template>
@@ -11,10 +9,10 @@ console.log(optionLabels.value);
       <div class="flex flex-col gap-2">
         <div class="flex items-center gap-3">
           <span class="px-1.5 rounded-full bg-red">A</span>
-          <h3 class="text-2xl font-bold">{{optionLabel}}</h3>
+          <h3 class="text-2xl font-bold">{{ optionLabel }}</h3>
         </div>
         <div class="bg-white w-fit p-2 border">
-          <input  
+          <input
             class="w-32 text-base font-medium"
             placeholder="20 bis 119 cm"
             type="text"

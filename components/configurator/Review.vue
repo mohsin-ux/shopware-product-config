@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const { setCurrentOption }: any = inject("sideBar");
+const { setCurrentOption }: any = inject("allData");
 const userInput = ref<string>("");
 let typingTimer: any = null;
 function triggerFunction() {
@@ -16,7 +16,7 @@ function handleInput() {
 </script>
 
 <template>
-  <div class="w-[636px] flex flex-col gap-6">
+  <div class="w-[660px] flex flex-col gap-6">
     <div>
       <p class="text-lg font-normal text-[#404855]">
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy

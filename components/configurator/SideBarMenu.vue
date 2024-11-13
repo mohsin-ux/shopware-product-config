@@ -7,7 +7,7 @@ const emit = defineEmits<{
 }>();
 
 const { selectedLabel, selectedGroupIndex, groupLabels, setCurrentGroup }: any =
-  inject("sideBar");
+  inject("allData");
 // const labelsByGroup = ref<Record<number, string>>({});
 
 function selectedGroup(index: number, groupLabel: string) {

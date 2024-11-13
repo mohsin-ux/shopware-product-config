@@ -1,15 +1,30 @@
 <script setup lang="ts">
-const { optionLabels, groupLabels, selectedGroupLabel }: any = inject("sideBar");
+const {
+  optionLabels,
+  allProfilesLabels,
+  selectedGroupLabel,
+  setFilteredValues,
+}: any = inject("allData");
 const inputValue = ref<string>("");
-const filteredOptions = computed(() => {
-  const valueToSearch = inputValue.value.toLowerCase();
-  return optionLabels.filter((option: string) => option.toLowerCase().includes(valueToSearch));
-})
-const filteredGroups = computed(() => {
-  const valueToSearch = inputValue.value.toLowerCase();
-  return groupLabels.filter((group: string) => group.toLowerCase().includes(valueToSearch));
-})
 
+// const filteredOptions = ref<string[] | null>(null);
+const filteredOptions = computed<null | string[]>(() => {
+  const valueToSearch = inputValue.value.toLowerCase();
+  return optionLabels.value.filter((option: string) =>
+    option.toLowerCase().includes(valueToSearch)
+  ) 
+});
+
+const filteredProfiles = computed<null | string[]>(() => {
+  const valueToSearch = inputValue.value.toLowerCase();
+  return allProfilesLabels.value.filter((group: string) =>
+    group.toLowerCase().includes(valueToSearch)
+  )
+});
+function handleInputEvent() {
+
+  setFilteredValues(filteredProfiles.value, filteredOptions.value);
+}
 </script>
 
 <template>
@@ -19,6 +34,7 @@ const filteredGroups = computed(() => {
       :placeholder="`Nach ${selectedGroupLabel} suchen`"
       type="text"
       v-model="inputValue"
+      @input="handleInputEvent"
     />
     <IconsSearchBlack class="absolute right-3 top-2" />
   </div>
