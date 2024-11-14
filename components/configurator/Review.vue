@@ -3,20 +3,18 @@ const { setCurrentOption }: any = inject("allData");
 const userInput = ref<string>("");
 let typingTimer: any = null;
 function triggerFunction() {
-  console.log(userInput.value);
   setCurrentOption(0, userInput.value);
 }
 function handleInput() {
-  console.log(`the timer function is called within this method`);
   if (typingTimer) clearTimeout(typingTimer);
   typingTimer = setTimeout(() => {
     triggerFunction();
-  }, 3000);
+  }, 2000);
 }
 </script>
 
 <template>
-  <div class="w-[660px] flex flex-col gap-6">
+  <div class=" flex flex-col gap-6">
     <div>
       <p class="text-lg font-normal text-[#404855]">
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy

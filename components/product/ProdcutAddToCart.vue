@@ -1,25 +1,8 @@
 <script setup lang="ts">
-// import type { Product } from "@shopware-pwa/types";
 import SharedModal from "../shared/SharedModal.vue";
 import Loading from "~/components/product/Loading.vue";
 
-// import { useConfigState } from "~/composables/configurator/configState";
 
-// console.log(loading);
-
-// const { pushSuccess } = useNotifications();
-// const props = defineProps<{
-//   product: Product;
-// }>();
-// const { product } = toRefs(props);
-// const { codeErrorsNotification } = useCartNotification();
-// const { addToCart, quantity } = useAddToCart(product);
-
-// const addToCartProxy = async () => {
-//   await addToCart();
-//   codeErrorsNotification();
-//   pushSuccess(`${props.product?.translated?.name} has been added to cart.`);
-// };
 const isRender = ref(false);
 const pageLoading = ref(true);
 onMounted(() => {
@@ -35,16 +18,15 @@ function decrement() {
 const kitchenzModalController = useModal();
 
 function handleRender() {
-  console.log(
-    "render function is called dynamically for this app and this functionality"
-  );
-  console.log(isRender.value);
   isRender.value = true;
 }
 function handleClick() {
   isRender.value = false;
   kitchenzModalController.open();
 }
+
+
+provide("close", { kitchenzModalController });
 </script>
 
 <template>
@@ -76,8 +58,9 @@ function handleClick() {
         <loading v-if="!isRender" />
 
         <ProductConfigurator @dataReady="handleRender" />
-        <!-- @success="kitchenzModalController.close" -->
+        <!-- @success="kitchenzModalController.close" --> 
       </SharedModal>
+
     </div>
   </div>
 </template>

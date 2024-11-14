@@ -1,3 +1,5 @@
+
+
 export const useFetchData = async <T = any>({
   url,
   method,
@@ -9,13 +11,11 @@ export const useFetchData = async <T = any>({
   headers?: Record<string, string>;
   payload?: any;
 }): Promise<any> => {
-  console.log(`call this method`)
   const { data, error, pending } = await useFetch<any>(url, {
     method, 
     headers,
     ...(method === "POST" && { body: JSON.stringify(payload) }),
   });
-  console.log(pending.value)
   if (!data.value) {
     throw new Error("No data received from the API");
   }

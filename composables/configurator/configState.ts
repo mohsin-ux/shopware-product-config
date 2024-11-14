@@ -23,23 +23,20 @@ export const useConfigState = async () => {
     selectedLabel.value = {};
     setSelectedLabel(label);
     currentGroupIndex.value++;
-    console.log(currentGroupIndex.value);
     setSelectedLabel(label);
     setSelectedGroupLabel(selectedGroupIndex.value + 1);
     setSelectedGroupIndex(selectedGroupIndex.value + 1);
   }
   function setCurrentOption(index: number, label: string) {
     setSelectedLabel(label);
-    
+
     if (selectedGroupIndex.value < groupLabels.value.length - 1) {
       currentGroupIndex.value++;
-      console.log(`this is the last index or not`);
       setSelectedLabel(label);
       setSelectedGroupLabel(selectedGroupIndex.value + 1);
       setSelectedGroupIndex(selectedGroupIndex.value + 1);
     }
-    filteredOptions.value = optionLabels.value;
-
+    filteredOptions.value = optionLabels.value; 
   }
   function setCurrentGroup(index: number, currentGroupLabel: string) {
     currentGroupIndex.value = index;
@@ -47,7 +44,6 @@ export const useConfigState = async () => {
     setSelectedGroupLabel(selectedGroupIndex.value);
     setSelectedGroupIndex(selectedGroupIndex.value);
     filteredOptions.value = optionLabels.value;
-
   }
 
   function setSelectedLabel(label: string) {
@@ -62,7 +58,6 @@ export const useConfigState = async () => {
   }
 
   function setFilteredValues(profiles: string[], options: string[]) {
-    console.log(`${optionLabels.value}`);
     filteredProfiles.value = profiles;
     filteredOptions.value = options;
   }

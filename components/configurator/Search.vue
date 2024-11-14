@@ -12,17 +12,16 @@ const filteredOptions = computed<null | string[]>(() => {
   const valueToSearch = inputValue.value.toLowerCase();
   return optionLabels.value.filter((option: string) =>
     option.toLowerCase().includes(valueToSearch)
-  ) 
+  );
 });
 
 const filteredProfiles = computed<null | string[]>(() => {
   const valueToSearch = inputValue.value.toLowerCase();
   return allProfilesLabels.value.filter((group: string) =>
     group.toLowerCase().includes(valueToSearch)
-  )
+  );
 });
 function handleInputEvent() {
-
   setFilteredValues(filteredProfiles.value, filteredOptions.value);
 }
 </script>

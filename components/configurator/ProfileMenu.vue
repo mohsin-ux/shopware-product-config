@@ -11,15 +11,13 @@ const selectedProfileLabel = computed(
   () => selectedLabel.value[selectedGroupIndex.value]
 );
 function handleClick(index: number, label: string) {
-  console.log("Button clicked");
   setCurrentProfile(index, label);
-  console.log(label);
-  console.log(selectedProfileLabel.value);
+
 }
 </script>
 
 <template>
-  <div class="flex flex-wrap gap-3 overflow-y-auto sm:w-[660px]">
+  <div class="flex flex-wrap gap-3 overflow-y-auto">
     <div
       v-for="(label, index) in filteredProfiles"
       class="w-[204px] h-[204px] border flex justify-center mt-2 relative hover:border-red hover:border-4 hover:p-1 transition-all"

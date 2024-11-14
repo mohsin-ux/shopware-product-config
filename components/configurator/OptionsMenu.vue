@@ -4,7 +4,6 @@ const {
   selectedLabel,
   selectedGroupIndex,
   setCurrentOption,
-  optionLabels,
 }: any = inject("allData");
 
 const selectedOptionLabel = computed(
@@ -12,13 +11,12 @@ const selectedOptionLabel = computed(
 );
 function handleClick(index: number, label: string) {
   setCurrentOption(index, label);
-  console.log(selectedOptionLabel.value);
 
 }
 </script>
 
 <template>
-  <div class="flex flex-wrap gap-3 overflow-y-auto sm:w-[660px]">
+  <div class="flex flex-wrap gap-3 overflow-y-auto">
     <div
       v-for="(label, index) in filteredOptions"
       :key="index"

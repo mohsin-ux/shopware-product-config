@@ -3,7 +3,7 @@ const { optionLabels }: any = inject("allData");
 </script>
 
 <template>
-  <div class="w-[636px] flex flex-wrap gap-y-8">
+  <div class=" flex flex-wrap gap-y-8">
     <div v-for="optionLabel in optionLabels" class="w-1/2">
       <img src="~/assets/images/configImage.png" alt="" />
       <div class="flex flex-col gap-2">

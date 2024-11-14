@@ -20,7 +20,7 @@ function selectedGroup(index: number, groupLabel: string) {
 
 <template>
   <div
-    class="max-sm:rounded-lg w-full bg-kitchenz relative transition-all p-4"
+    class="max-sm:rounded-lg w-full bg-kitchenz relative transition-all p-4 "
     :class="{ 'hidden sm:block': !isMenuVisible }"
   >
     <div
