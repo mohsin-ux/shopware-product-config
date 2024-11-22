@@ -1,26 +1,26 @@
 <script setup lang="ts">
-import Loading from '~/components/product/Loading.vue';
+import { PROVIDED_KEY } from '~/constants';
+
 const {
   filteredProfiles,
   selectedGroupIndex,
   selectedLabel,
   setCurrentProfile,
-}: any = inject("allData");
+}: any = inject(PROVIDED_KEY);
 
 const selectedProfileLabel = computed(
   () => selectedLabel.value[selectedGroupIndex.value]
 );
 function handleClick(index: number, label: string) {
   setCurrentProfile(index, label);
-
 }
 </script>
 
 <template>
-  <div class="flex flex-wrap gap-3 overflow-y-auto">
+  <div class="lg:w-[636px] md:w-[420px] flex justify-center md:justify-start flex-wrap gap-3 overflow-y-auto">
     <div
       v-for="(label, index) in filteredProfiles"
-      class="w-[204px] h-[204px] border flex justify-center mt-2 relative hover:border-red hover:border-4 hover:p-1 transition-all"
+      class="w-[160px] sm:w-[204px] h-[204px] border flex mt-2 relative hover:border-red hover:border-4 hover:p-1 transition-all"
       :class="{ 'border-red border-4 p-1': selectedProfileLabel === label }"
       @click="handleClick(index, label)"
     >

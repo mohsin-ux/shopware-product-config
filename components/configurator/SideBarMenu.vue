@@ -6,13 +6,21 @@ const emit = defineEmits<{
   (e: "showMenu"): void;
 }>();
 
-const { selectedLabel, selectedGroupIndex, groupLabels, setCurrentGroup }: any =
-  inject("allData");
+const {
+  groupsData,
+  selectedLabel,
+  selectedGroupIndex,
+  groupLabels,
+  setCurrentGroup,
+}: any = inject("allData");
 // const labelsByGroup = ref<Record<number, string>>({});
 
-function selectedGroup(index: number, groupLabel: string) {
-  if (selectedLabel.value[index]) {
-    setCurrentGroup(index, groupLabel);
+function selectedGroup(index: number) {
+  if (
+    selectedLabel.value[index] ||
+    groupsData.value[index + 1].required === 0
+  ) {
+    setCurrentGroup(index);
     emit("showMenu");
   }
 }
@@ -20,7 +28,7 @@ function selectedGroup(index: number, groupLabel: string) {
 
 <template>
   <div
-    class="max-sm:rounded-lg w-full bg-kitchenz relative transition-all p-4 "
+    class="max-sm:rounded-lg w-full bg-kitchenz relative transition-all p-4"
     :class="{ 'hidden sm:block': !isMenuVisible }"
   >
     <div
@@ -31,7 +39,7 @@ function selectedGroup(index: number, groupLabel: string) {
     </div>
 
     <div
-      v-for="(groupLabel, index) in groupLabels"
+      v-for="(groupData, index) in groupsData"
       class="py-2 border-b border-[#DEDAD4] flex items-center cursor-pointer"
     >
       <span
@@ -39,16 +47,17 @@ function selectedGroup(index: number, groupLabel: string) {
         :class="{ hidden: index !== selectedGroupIndex }"
       ></span>
       <div
-        @click="selectedGroup(index, groupLabel)"
+        @click="selectedGroup(index)"
         class="w-full bg-none text-start flex items-center gap-1"
         :class="{ 'font-bold': index === selectedGroupIndex }"
       >
         <div class="flex items-center gap-2">
           <p>{{ index + 1 }}.</p>
           <p class="w-24 hyphens-auto break-words" lang="de">
-            {{ groupLabel }}
+            {{ groupData.groupLabel }}
           </p>
         </div>
+        <p>{{groupData.required}}</p>
 
         <div
           class="text-red flex items-center gap-1"

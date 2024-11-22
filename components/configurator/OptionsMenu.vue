@@ -1,10 +1,12 @@
 <script setup lang="ts">
+import { PROVIDED_KEY } from '~/constants';
+
 const {
   filteredOptions,
   selectedLabel,
   selectedGroupIndex,
   setCurrentOption,
-}: any = inject("allData");
+}: any = inject(PROVIDED_KEY);
 
 const selectedOptionLabel = computed(
   () => selectedLabel.value[selectedGroupIndex.value]
@@ -16,7 +18,7 @@ function handleClick(index: number, label: string) {
 </script>
 
 <template>
-  <div class="flex flex-wrap gap-3 overflow-y-auto">
+  <div class="lg:w-[636px] md:w-[450px] flex justify-center md:justify-start flex-wrap gap-3 overflow-y-auto">
     <div
       v-for="(label, index) in filteredOptions"
       :key="index"

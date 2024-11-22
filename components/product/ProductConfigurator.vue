@@ -1,26 +1,10 @@
 <script setup lang="ts">
+import { ConfiguratorDescription } from "#components";
 import { useConfigState } from "~/composables/configurator/configState";
-const {
-  loading,
-  filteredOptions,
-  filteredProfiles,
-  price,
-  type,
-  componentToShow,
-  selectedLabel,
-  currentProfileIndex,
-  optionLabels,
-  allProfilesLabels,
-  nextGroupLabel,
-  selectedGroupIndex,
-  selectedGroupLabel,
-  selectedChoiceByGroup,
-  groupLabels,
-  setCurrentOption,
-  setCurrentGroup,
-  setCurrentProfile,
-  setFilteredValues,
-}: any = await useConfigState();
+import { PROVIDED_KEY } from "~/constants";
+import type { AllData } from "~/types/allData";
+
+const allData: AllData = await useConfigState();
 const emit = defineEmits<{
   (e: "dataReady"): void;
 }>();
@@ -28,46 +12,31 @@ onMounted(() => {
   emit("dataReady");
 });
 
-provide("allData", {
-  filteredOptions,
-  filteredProfiles,
-  price,
-  type,
-  componentToShow,
-  selectedLabel,
-  currentProfileIndex,
-  optionLabels,
-  allProfilesLabels,
-  nextGroupLabel,
-  selectedGroupIndex,
-  selectedGroupLabel,
-  selectedChoiceByGroup,
-  groupLabels,
-  setCurrentOption,
-  setCurrentGroup,
-  setCurrentProfile,
-  setFilteredValues,
-});
+provide(PROVIDED_KEY, allData);
 </script>
 
 <template>
   <div
-    class="sm:flex h-screen sm:max-h-[672px] md:w-[1000px] relative overflow-y-auto overflow-x-hidden"
+    class="sm:flex h-screen sm:max-h-[672px] relative overflow-y-auto overflow-x-hidden"
   >
     <div class="p-6 pb-0 flex flex-col gap-3">
       <h1 class="text-2xl font-bold">
-        {{ selectedGroupIndex + 1 }}.
+        {{ allData.selectedGroupIndex.value + 1 }}.
         <span class="text-base font-normal sm:hidden"
-          >/{{ groupLabels.length }}</span
+          >/{{ allData.groupsData.value.length }}</span
         >
 
-        {{ selectedGroupLabel }} <span v-if="type !== 3"> wählen </span>
+        {{ allData.selectedGroupLabel }}
+        <span v-if="allData.type.value !== 3"> wählen </span>
       </h1>
-      <ConfiguratorSearch v-if="type !== 3" />
-      <ConfiguratorProfileMenu v-show="!componentToShow && type === 1" />
-      <ConfiguratorOptionsMenu v-show="componentToShow && type === 1" />
-      <ConfiguratorPriceMenu v-show="type === 2" />
-      <ConfiguratorReview v-show="type === 3" />
+      <ConfiguratorSearch v-if="allData.type.value !== 3" />
+
+      <ConfiguratorProfileMenu
+        v-if="!allData.componentToShow.value && allData.type.value === 1"
+      />
+      <ConfiguratorOptionsMenu v-else />
+      <ConfiguratorDimensionsMenu v-show="allData.type.value === 2" />
+      <ConfiguratorDescription v-show="allData.type.value === 3" />
     </div>
 
     <ConfiguratorSidebar />

@@ -1,15 +1,20 @@
 <script setup lang="ts">
+import { PROVIDED_KEY } from "~/constants";
+
 const {
+  inputValue,
   optionLabels,
   allProfilesLabels,
   selectedGroupLabel,
+  selectedGroupIndex,
   setFilteredValues,
-}: any = inject("allData");
-const inputValue = ref<string>("");
+}: any = inject(PROVIDED_KEY);
 
-// const filteredOptions = ref<string[] | null>(null);
+
+
 const filteredOptions = computed<null | string[]>(() => {
   const valueToSearch = inputValue.value.toLowerCase();
+  if (selectedGroupIndex.value === 0) return allProfilesLabels.value;
   return optionLabels.value.filter((option: string) =>
     option.toLowerCase().includes(valueToSearch)
   );
@@ -17,10 +22,12 @@ const filteredOptions = computed<null | string[]>(() => {
 
 const filteredProfiles = computed<null | string[]>(() => {
   const valueToSearch = inputValue.value.toLowerCase();
-  return allProfilesLabels.value.filter((group: string) =>
-    group.toLowerCase().includes(valueToSearch)
+  if (selectedGroupIndex.value !== 0) return optionLabels.value;
+  return allProfilesLabels.value.filter((profile: string) =>
+    profile.toLowerCase().includes(valueToSearch)
   );
 });
+
 function handleInputEvent() {
   setFilteredValues(filteredProfiles.value, filteredOptions.value);
 }
@@ -36,5 +43,6 @@ function handleInputEvent() {
       @input="handleInputEvent"
     />
     <IconsSearchBlack class="absolute right-3 top-2" />
+    <p>{{ inputValue }}</p>
   </div>
 </template>

@@ -1,10 +1,8 @@
-// https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
   extends: [
     "@shopware-pwa/composables-next/nuxt-layer",
     "@shopware-pwa/cms-base",
   ],
-
   runtimeConfig: {
     shopware: {
       /**
@@ -13,24 +11,26 @@ export default defineNuxtConfig({
        */
       // endpoint: "",
     },
-    // public: {
-    //   endpoint: "https://demo-frontends.shopware.store/store-api/",
-    //   accessToken: "SWSCBHFSNTVMAWNZDNFKSHLAYW",
-    //   devStorefrontUrl: "",
-    // },
+    public: {
+      productAccessToken: process.env.PRODUCT_ACCESS_TOKEN,
+      productEndpoint: process.env.PRODUCT_ENDPOINT,
+      devStorefrontUrl: "",
+    },
 
     /**
      * More about this feature you can find here: https://frontends.shopware.com/getting-started/features/broadcasting.html
      */
-    public: {
-      broadcasting: false,
-    },
+
+    // public: {
+    //   broadcasting: false,
+    // },
     broadcasting: false,
   },
 
   shopware: {
     accessToken: process.env.SHOPWARE_ACCESS_TOKEN,
     endpoint: process.env.SHOPWARE_ENDPOINT,
+
     devStorefrontUrl: "",
   },
 

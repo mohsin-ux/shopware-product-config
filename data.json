@@ -1,0 +1,4492 @@
+{
+  "NK-P-MA-L23": {
+    "groups": [
+      {
+        "extensions": {
+          "foreignKeys": {
+            "extensions": [],
+            "apiAlias": "kit_config_group_foreign_keys_extension"
+          }
+        },
+        "_uniqueIdentifier": "01929eeb217473e6b795aabd5842769d",
+        "versionId": null,
+        "translated": [],
+        "createdAt": {
+          "date": "2024-10-18 09:17:42.644000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "updatedAt": null,
+        "_entityName": "array-entity",
+        "uuid": "01929eeb217473e6b795aabd5842769d",
+        "configProfileId": "01929eeb2173714b9a88951a9d607464",
+        "customField": "optionsgruppe_programm",
+        "label": "Produktlinie",
+        "type": 1,
+        "position": 1,
+        "required": 1,
+        "pricerule": null,
+        "description": null,
+        "configProfile": null,
+        "options": [
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb2177728489c2f72e6d507af5",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.647000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb2177728489c2f72e6d507af5",
+            "configGroupId": "01929eeb217473e6b795aabd5842769d",
+            "label": "Lucca",
+            "labelId": "L23",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": "Melaminharz matt, Dickkante in Frontfarbe, Stärke: 19 mm",
+            "relation": null,
+            "importedMediaIds": "2407,2407",
+            "configMediaId": "5adeff950ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adeff950ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/59/bc/7c/1713338308/option-nolte-lucca.jpg?ts=1720867297",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/59/bc/7c/1713338308/option-nolte-lucca_400x400.jpg?ts=1713338314"
+          }
+        ]
+      },
+      {
+        "extensions": {
+          "foreignKeys": {
+            "extensions": [],
+            "apiAlias": "kit_config_group_foreign_keys_extension"
+          }
+        },
+        "_uniqueIdentifier": "01929eeb2178709596ad621ef447ba35",
+        "versionId": null,
+        "translated": [],
+        "createdAt": {
+          "date": "2024-10-18 09:17:42.648000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "updatedAt": null,
+        "_entityName": "array-entity",
+        "uuid": "01929eeb2178709596ad621ef447ba35",
+        "configProfileId": "01929eeb2173714b9a88951a9d607464",
+        "customField": "optionsgruppe_front",
+        "label": "Front",
+        "type": 1,
+        "position": 2,
+        "required": 1,
+        "pricerule": null,
+        "description": "Melaminharz matt, Dickkante in Frontfarbe, Stärke: 19 mm",
+        "configProfile": null,
+        "options": [
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb217b725d88685c919b028468",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.651000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb217b725d88685c919b028468",
+            "configGroupId": "01929eeb2178709596ad621ef447ba35",
+            "label": "Zement Achatgrau",
+            "labelId": "243",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2404,2404",
+            "configMediaId": "5adefd950ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adefd950ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/5b/56/f5/1713872602/option-nolte-lucca-243.jpg?ts=1724403597",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/5b/56/f5/1713872602/option-nolte-lucca-243_400x400.jpg?ts=1713872603"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb217e711db54d30b83e67c924",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.655000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb217e711db54d30b83e67c924",
+            "configGroupId": "01929eeb2178709596ad621ef447ba35",
+            "label": "Zement Anthrazit",
+            "labelId": "244",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2405,2405",
+            "configMediaId": "5adefe420ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adefe420ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/c6/2d/d3/1713872602/option-nolte-lucca-244.jpg?ts=1724403597",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/c6/2d/d3/1713872602/option-nolte-lucca-244_400x400.jpg?ts=1713872604"
+          }
+        ]
+      },
+      {
+        "extensions": {
+          "foreignKeys": {
+            "extensions": [],
+            "apiAlias": "kit_config_group_foreign_keys_extension"
+          }
+        },
+        "_uniqueIdentifier": "01929eeb217f71c4858ac06a9d15c932",
+        "versionId": null,
+        "translated": [],
+        "createdAt": {
+          "date": "2024-10-18 09:17:42.655000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "updatedAt": null,
+        "_entityName": "array-entity",
+        "uuid": "01929eeb217f71c4858ac06a9d15c932",
+        "configProfileId": "01929eeb2173714b9a88951a9d607464",
+        "customField": "optionsgruppe_korpus",
+        "label": "Korpus",
+        "type": 1,
+        "position": 3,
+        "required": 1,
+        "pricerule": null,
+        "description": null,
+        "configProfile": null,
+        "options": [
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb218271068699677107863cc5",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.659000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb218271068699677107863cc5",
+            "configGroupId": "01929eeb217f71c4858ac06a9d15c932",
+            "label": "Arcticweiß",
+            "labelId": "ARW",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2387,2387",
+            "configMediaId": "5adef25b0ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adef25b0ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/b9/d6/4c/1713872620/option-nolte-korpus-arw.jpg?ts=1720867300",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/b9/d6/4c/1713872620/option-nolte-korpus-arw_400x400.jpg?ts=1713872620"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb218672e29e65b5ed2c40f0f3",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.662000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb218672e29e65b5ed2c40f0f3",
+            "configGroupId": "01929eeb217f71c4858ac06a9d15c932",
+            "label": "Asteiche natur",
+            "labelId": "AEN",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2386,2386",
+            "configMediaId": "5adef19d0ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adef19d0ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/68/6d/21/1713872620/option-nolte-korpus-aen.jpg?ts=1720867300",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/68/6d/21/1713872620/option-nolte-korpus-aen_400x400.jpg?ts=1713872620"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb2189704da4382bf09c80f637",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.665000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb2189704da4382bf09c80f637",
+            "configGroupId": "01929eeb217f71c4858ac06a9d15c932",
+            "label": "Beton",
+            "labelId": "BET",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2390,2390",
+            "configMediaId": "5adef4640ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adef4640ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/0b/fb/5e/1713872620/option-nolte-korpus-bet.jpg?ts=1720867300",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/0b/fb/5e/1713872620/option-nolte-korpus-bet_400x400.jpg?ts=1713872620"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb218c71cc867c2e2baf4987d3",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.668000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb218c71cc867c2e2baf4987d3",
+            "configGroupId": "01929eeb217f71c4858ac06a9d15c932",
+            "label": "Chalet Eiche",
+            "labelId": "CED",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2391,2391",
+            "configMediaId": "5adef50c0ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adef50c0ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/c2/67/bb/1713872620/option-nolte-korpus-ced.jpg?ts=1720867300",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/c2/67/bb/1713872620/option-nolte-korpus-ced_400x400.jpg?ts=1713872620"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb218f73c2a9f7c81e33887045",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.672000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb218f73c2a9f7c81e33887045",
+            "configGroupId": "01929eeb217f71c4858ac06a9d15c932",
+            "label": "Graphit",
+            "labelId": "GTD",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2393,2393",
+            "configMediaId": "5adef65c0ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adef65c0ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/a1/1d/cd/1713872620/option-nolte-korpus-gtd.jpg?ts=1720867300",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/a1/1d/cd/1713872620/option-nolte-korpus-gtd_400x400.jpg?ts=1713872620"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb219170b2a0f3281aa718fade",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.673000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb219170b2a0f3281aa718fade",
+            "configGroupId": "01929eeb217f71c4858ac06a9d15c932",
+            "label": "Lava",
+            "labelId": "LAD",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": null,
+            "configMediaId": null,
+            "configMediaThumbId": null,
+            "configGroup": null,
+            "configMedia": null,
+            "configMediaThumb": null
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb219473b3bfb099dddfb81ae4",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.676000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb219473b3bfb099dddfb81ae4",
+            "configGroupId": "01929eeb217f71c4858ac06a9d15c932",
+            "label": "Magnolia",
+            "labelId": "AWD",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2388,2388",
+            "configMediaId": "5adef30c0ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adef30c0ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/93/dd/95/1713872620/option-nolte-korpus-awd.jpg?ts=1720867300",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/93/dd/95/1713872620/option-nolte-korpus-awd_400x400.jpg?ts=1713872620"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb2197701a94342f340854a621",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.679000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb2197701a94342f340854a621",
+            "configGroupId": "01929eeb217f71c4858ac06a9d15c932",
+            "label": "Platingrau",
+            "labelId": "PGD",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2394,2394",
+            "configMediaId": "5adef7030ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adef7030ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/ae/9a/c3/1713872620/option-nolte-korpus-pgd.jpg?ts=1720867300",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/ae/9a/c3/1713872620/option-nolte-korpus-pgd_400x400.jpg?ts=1713872620"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb219a701fa7ab6f8c4c983a53",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.683000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb219a701fa7ab6f8c4c983a53",
+            "configGroupId": "01929eeb217f71c4858ac06a9d15c932",
+            "label": "Quarzgrau",
+            "labelId": "QGD",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2397,2397",
+            "configMediaId": "5adef8f60ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adef8f60ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/b3/15/96/1713872620/option-nolte-korpus-qgd.jpg?ts=1720867300",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/b3/15/96/1713872620/option-nolte-korpus-qgd_400x400.jpg?ts=1713872620"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb219e705eacd80fae174cd876",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.686000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb219e705eacd80fae174cd876",
+            "configGroupId": "01929eeb217f71c4858ac06a9d15c932",
+            "label": "Sahara",
+            "labelId": "SHD",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2398,2398",
+            "configMediaId": "5adef9990ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adef9990ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/6f/bc/6e/1713872620/option-nolte-korpus-shd.jpg?ts=1720867300",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/6f/bc/6e/1713872620/option-nolte-korpus-shd_400x400.jpg?ts=1713872620"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb21a17005a8c89bb9e42bd278",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.689000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb21a17005a8c89bb9e42bd278",
+            "configGroupId": "01929eeb217f71c4858ac06a9d15c932",
+            "label": "Vulkaneiche",
+            "labelId": "ED9",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2392,2392",
+            "configMediaId": "5adef5b50ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adef5b50ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/d8/8e/8f/1713872620/option-nolte-korpus-ed9.jpg?ts=1720867300",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/d8/8e/8f/1713872620/option-nolte-korpus-ed9_400x400.jpg?ts=1713872620"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb21a47397b579d6d8d4b69817",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.692000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb21a47397b579d6d8d4b69817",
+            "configGroupId": "01929eeb217f71c4858ac06a9d15c932",
+            "label": "Weiß",
+            "labelId": "PWD",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2395,2395",
+            "configMediaId": "5adef7aa0ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adef7aa0ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/5a/fe/ac/1713872620/option-nolte-korpus-pwd.jpg?ts=1720867300",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/5a/fe/ac/1713872620/option-nolte-korpus-pwd_400x400.jpg?ts=1713872620"
+          }
+        ]
+      },
+      {
+        "extensions": {
+          "foreignKeys": {
+            "extensions": [],
+            "apiAlias": "kit_config_group_foreign_keys_extension"
+          }
+        },
+        "_uniqueIdentifier": "01929eeb21a5729d88e3adb81b836e79",
+        "versionId": null,
+        "translated": [],
+        "createdAt": {
+          "date": "2024-10-18 09:17:42.693000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "updatedAt": null,
+        "_entityName": "array-entity",
+        "uuid": "01929eeb21a5729d88e3adb81b836e79",
+        "configProfileId": "01929eeb2173714b9a88951a9d607464",
+        "customField": "optionsgruppe_glastuer",
+        "label": "Glasrahmen",
+        "type": 1,
+        "position": 4,
+        "required": 1,
+        "pricerule": null,
+        "description": null,
+        "configProfile": null,
+        "options": [
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb21a8729fbe4afc88e7a86709",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.697000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb21a8729fbe4afc88e7a86709",
+            "configGroupId": "01929eeb21a5729d88e3adb81b836e79",
+            "label": "Alurahmen-Glastür - DN",
+            "labelId": "DN",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": "[{\"cf\":\"optionsgruppe_glasart\",\"id\":\"DNPGB\"},{\"cf\":\"optionsgruppe_glasart\",\"id\":\"DNSGG\"},{\"cf\":\"optionsgruppe_griff\",\"id\":\"999\"}]",
+            "importedMediaIds": "2621,2621",
+            "configMediaId": "9252eb3b68f24a6f87cd37a009cbdc4a",
+            "configMediaThumbId": "9252eb3b68f24a6f87cd37a009cbdc4a",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/38/0d/b9/1724148870/option-nolte-glasrahmen-dn-sgg.jpg?ts=1724148870",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/38/0d/b9/1724148870/option-nolte-glasrahmen-dn-sgg_400x400.jpg?ts=1724148871"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb21ac71c3885570e0a2057d53",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.700000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb21ac71c3885570e0a2057d53",
+            "configGroupId": "01929eeb21a5729d88e3adb81b836e79",
+            "label": "Alurahmen-Glastür schmal - DR",
+            "labelId": "DR",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": "[{\"cf\":\"optionsgruppe_glasart\",\"id\":\"DRPGB\"},{\"cf\":\"optionsgruppe_glasart\",\"id\":\"DRSGG\"},{\"cf\":\"optionsgruppe_griff\",\"id\":\"999\"}]",
+            "importedMediaIds": "2622,2622",
+            "configMediaId": "a64cc926ee014d45917f072d0f1028e2",
+            "configMediaThumbId": "a64cc926ee014d45917f072d0f1028e2",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/27/1e/5f/1724148870/option-nolte-glasrahmen-dr-pgb.jpg?ts=1724148870",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/27/1e/5f/1724148870/option-nolte-glasrahmen-dr-pgb_400x400.jpg?ts=1724148871"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb21af72a18c82b99492abdcb7",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.703000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb21af72a18c82b99492abdcb7",
+            "configGroupId": "01929eeb21a5729d88e3adb81b836e79",
+            "label": "Flächenbündige Glastür - DE",
+            "labelId": "DEES",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": "[{\"cf\":\"optionsgruppe_glasart\",\"id\":\"DEPGG\"},{\"cf\":\"optionsgruppe_glasart\",\"id\":\"DESAG\"},{\"cf\":\"optionsgruppe_griff\",\"id\":\"999\"}]",
+            "importedMediaIds": "2616,2616",
+            "configMediaId": "63a3729b6c8c4f3cb10e422f163fa79f",
+            "configMediaThumbId": "63a3729b6c8c4f3cb10e422f163fa79f",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/1e/f6/de/1724148870/option-nolte-glasrahmen-de-pgg.jpg?ts=1724148870",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/1e/f6/de/1724148870/option-nolte-glasrahmen-de-pgg_400x400.jpg?ts=1724148870"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb21b272949261a4b29b894b55",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.706000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb21b272949261a4b29b894b55",
+            "configGroupId": "01929eeb21a5729d88e3adb81b836e79",
+            "label": "Flächenbündige Glastür - DF",
+            "labelId": "DF",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": "[{\"cf\":\"optionsgruppe_glasart\",\"id\":\"DFSWG\"},{\"cf\":\"optionsgruppe_glasart\",\"id\":\"DFWLG\"},{\"cf\":\"optionsgruppe_griff\",\"id\":\"R12\"},{\"cf\":\"optionsgruppe_griff\",\"id\":\"R25\"},{\"cf\":\"optionsgruppe_griff\",\"id\":\"R45\"},{\"cf\":\"optionsgruppe_griff\",\"id\":\"R70\"},{\"cf\":\"optionsgruppe_griff\",\"id\":\"999\"}]",
+            "importedMediaIds": "2618,2618",
+            "configMediaId": "d7c7e92edf2943d9982ee87d7cf7df9d",
+            "configMediaThumbId": "d7c7e92edf2943d9982ee87d7cf7df9d",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/34/60/b5/1724148870/option-nolte-glasrahmen-df-swg.jpg?ts=1724148870",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/34/60/b5/1724148870/option-nolte-glasrahmen-df-swg_400x400.jpg?ts=1724148871"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb21b570a8b16fc054df99988b",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.710000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb21b570a8b16fc054df99988b",
+            "configGroupId": "01929eeb21a5729d88e3adb81b836e79",
+            "label": "Flächenbündige Glastür - DS",
+            "labelId": "DSSC",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": "[{\"cf\":\"optionsgruppe_glasart\",\"id\":\"DSSGG\"},{\"cf\":\"optionsgruppe_griff\",\"id\":\"999\"}]",
+            "importedMediaIds": "2624,2624",
+            "configMediaId": "e9d1eee8f42543b1a5babfa85e1effb5",
+            "configMediaThumbId": "e9d1eee8f42543b1a5babfa85e1effb5",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/c3/27/ac/1724148870/option-nolte-glasrahmen-ds-sgg.jpg?ts=1724148870",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/c3/27/ac/1724148870/option-nolte-glasrahmen-ds-sgg_400x400.jpg?ts=1724148871"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb21b97278bfe57ef8e76fc235",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.713000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb21b97278bfe57ef8e76fc235",
+            "configGroupId": "01929eeb21a5729d88e3adb81b836e79",
+            "label": "Rahmen-Glastür",
+            "labelId": "L23",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": "[{\"cf\":\"optionsgruppe_glasart\",\"id\":\"FRE\"},{\"cf\":\"optionsgruppe_glasart\",\"id\":\"KAG\"},{\"cf\":\"optionsgruppe_glasart\",\"id\":\"SAG\"},{\"cf\":\"optionsgruppe_glasart\",\"id\":\"SGG\"}]",
+            "importedMediaIds": "2625,2625",
+            "configMediaId": "ed82300b12b44c219cea48ce542b1f43",
+            "configMediaThumbId": "ed82300b12b44c219cea48ce542b1f43",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/ac/c5/5f/1724148870/option-nolte-glasrahmen-programmgruppe-1.jpg?ts=1724148870",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/ac/c5/5f/1724148870/option-nolte-glasrahmen-programmgruppe-1_400x400.jpg?ts=1724148871"
+          }
+        ]
+      },
+      {
+        "extensions": {
+          "foreignKeys": {
+            "extensions": [],
+            "apiAlias": "kit_config_group_foreign_keys_extension"
+          }
+        },
+        "_uniqueIdentifier": "01929eeb21b97278bfe57ef8e7a44e00",
+        "versionId": null,
+        "translated": [],
+        "createdAt": {
+          "date": "2024-10-18 09:17:42.714000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "updatedAt": null,
+        "_entityName": "array-entity",
+        "uuid": "01929eeb21b97278bfe57ef8e7a44e00",
+        "configProfileId": "01929eeb2173714b9a88951a9d607464",
+        "customField": "optionsgruppe_glasart",
+        "label": "Glasart",
+        "type": 1,
+        "position": 5,
+        "required": 1,
+        "pricerule": null,
+        "description": null,
+        "configProfile": null,
+        "options": [
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb21bd70c389477cd4dabb5e76",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.717000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb21bd70c389477cd4dabb5e76",
+            "configGroupId": "01929eeb21b97278bfe57ef8e7a44e00",
+            "label": "Glas Freeze",
+            "labelId": "FRE",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2611,2611",
+            "configMediaId": "e7d4ed498f9c4601ac6774a15a690727",
+            "configMediaThumbId": "e7d4ed498f9c4601ac6774a15a690727",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/48/d6/1b/1724148870/option-nolte-glasart-fre.jpg?ts=1724148870",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/48/d6/1b/1724148870/option-nolte-glasart-fre_400x400.jpg?ts=1724148870"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb21e87273bafa8d42a747f9ff",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.760000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb21e87273bafa8d42a747f9ff",
+            "configGroupId": "01929eeb21b97278bfe57ef8e7a44e00",
+            "label": "Glas Grau satiniert",
+            "labelId": "DFSWG",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2618,2618",
+            "configMediaId": "d7c7e92edf2943d9982ee87d7cf7df9d",
+            "configMediaThumbId": "d7c7e92edf2943d9982ee87d7cf7df9d",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/34/60/b5/1724148870/option-nolte-glasrahmen-df-swg.jpg?ts=1724148870",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/34/60/b5/1724148870/option-nolte-glasrahmen-df-swg_400x400.jpg?ts=1724148871"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb21d17280a76a09b90f312e90",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.737000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb21d17280a76a09b90f312e90",
+            "configGroupId": "01929eeb21b97278bfe57ef8e7a44e00",
+            "label": "Glas Schwarz getönt",
+            "labelId": "DNSGG",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2621,2621",
+            "configMediaId": "9252eb3b68f24a6f87cd37a009cbdc4a",
+            "configMediaThumbId": "9252eb3b68f24a6f87cd37a009cbdc4a",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/38/0d/b9/1724148870/option-nolte-glasrahmen-dn-sgg.jpg?ts=1724148870",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/38/0d/b9/1724148870/option-nolte-glasrahmen-dn-sgg_400x400.jpg?ts=1724148871"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb21d873ff91b39d933493271b",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.744000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb21d873ff91b39d933493271b",
+            "configGroupId": "01929eeb21b97278bfe57ef8e7a44e00",
+            "label": "Glas Schwarz getönt",
+            "labelId": "DRSGG",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2623,2623",
+            "configMediaId": "7812df3db9a8414fb8dcf920f8a4bddc",
+            "configMediaThumbId": "7812df3db9a8414fb8dcf920f8a4bddc",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/9f/a2/8a/1724148870/option-nolte-glasrahmen-dr-sgg.jpg?ts=1724148870",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/9f/a2/8a/1724148870/option-nolte-glasrahmen-dr-sgg_400x400.jpg?ts=1724148871"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb21e270c3a901bc57c30c757b",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.754000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb21e270c3a901bc57c30c757b",
+            "configGroupId": "01929eeb21b97278bfe57ef8e7a44e00",
+            "label": "Glas Schwarz getönt",
+            "labelId": "DSSGG",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2624,2624",
+            "configMediaId": "e9d1eee8f42543b1a5babfa85e1effb5",
+            "configMediaThumbId": "e9d1eee8f42543b1a5babfa85e1effb5",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/c3/27/ac/1724148870/option-nolte-glasrahmen-ds-sgg.jpg?ts=1724148870",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/c3/27/ac/1724148870/option-nolte-glasrahmen-ds-sgg_400x400.jpg?ts=1724148871"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb21e57186ac57f12ed0c5ddd1",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.757000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb21e57186ac57f12ed0c5ddd1",
+            "configGroupId": "01929eeb21b97278bfe57ef8e7a44e00",
+            "label": "Glas Weiß lackiert",
+            "labelId": "DFWLG",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2619,2619",
+            "configMediaId": "7b6f0d16706845a198feb39f81ad5423",
+            "configMediaThumbId": "7b6f0d16706845a198feb39f81ad5423",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/b8/ae/29/1724148870/option-nolte-glasrahmen-df-wlg.jpg?ts=1724148870",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/b8/ae/29/1724148870/option-nolte-glasrahmen-df-wlg_400x400.jpg?ts=1724148871"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb21c07056a5b031eb7a29ead6",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.721000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb21c07056a5b031eb7a29ead6",
+            "configGroupId": "01929eeb21b97278bfe57ef8e7a44e00",
+            "label": "Glas satiniert",
+            "labelId": "SAG",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2614,2614",
+            "configMediaId": "6889a3b498f744209d2d88417d607791",
+            "configMediaThumbId": "6889a3b498f744209d2d88417d607791",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/58/1b/d5/1724148870/option-nolte-glasart-sag.jpg?ts=1724148870",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/58/1b/d5/1724148870/option-nolte-glasart-sag_400x400.jpg?ts=1724148870"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb21db71cfb193c5bcad521a96",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.747000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb21db71cfb193c5bcad521a96",
+            "configGroupId": "01929eeb21b97278bfe57ef8e7a44e00",
+            "label": "Glas satiniert",
+            "labelId": "DESAG",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2617,2617",
+            "configMediaId": "e59c013c65a5486889dc03482a650549",
+            "configMediaThumbId": "e59c013c65a5486889dc03482a650549",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/a1/00/37/1724148870/option-nolte-glasrahmen-de-sag.jpg?ts=1724148870",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/a1/00/37/1724148870/option-nolte-glasrahmen-de-sag_400x400.jpg?ts=1724148870"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb21c473b1a155016f69c56b94",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.724000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb21c473b1a155016f69c56b94",
+            "configGroupId": "01929eeb21b97278bfe57ef8e7a44e00",
+            "label": "Glas schwarz getönt",
+            "labelId": "SGG",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2615,2615",
+            "configMediaId": "f8bd4cfda51d4e1f8916036b15888d29",
+            "configMediaThumbId": "f8bd4cfda51d4e1f8916036b15888d29",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/06/e1/bc/1724148870/option-nolte-glasart-sgg.jpg?ts=1724148870",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/06/e1/bc/1724148870/option-nolte-glasart-sgg_400x400.jpg?ts=1724148871"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb21c7719bb532715173b77240",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.727000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb21c7719bb532715173b77240",
+            "configGroupId": "01929eeb21b97278bfe57ef8e7a44e00",
+            "label": "Klarglas",
+            "labelId": "KAG",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2612,2612",
+            "configMediaId": "22f3fe5b03dc48f69a072d9369aa3791",
+            "configMediaThumbId": "22f3fe5b03dc48f69a072d9369aa3791",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/b9/db/11/1724148870/option-nolte-glasart-kag.jpg?ts=1724148870",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/b9/db/11/1724148870/option-nolte-glasart-kag_400x400.jpg?ts=1724148870"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb21ca7096b3b65abc0fd7fad0",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.730000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb21ca7096b3b65abc0fd7fad0",
+            "configGroupId": "01929eeb21b97278bfe57ef8e7a44e00",
+            "label": "Klarglas mit Facette",
+            "labelId": "KFG",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2613,2613",
+            "configMediaId": "3dd1b19620c04dac9f40fc048fda244e",
+            "configMediaThumbId": "3dd1b19620c04dac9f40fc048fda244e",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/34/af/01/1724148870/option-nolte-glasart-kfg.jpg?ts=1724148870",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/34/af/01/1724148870/option-nolte-glasart-kfg_400x400.jpg?ts=1724148870"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb21ce721882ad8c808873ea04",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.734000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb21ce721882ad8c808873ea04",
+            "configGroupId": "01929eeb21b97278bfe57ef8e7a44e00",
+            "label": "Parsolglas Bronze",
+            "labelId": "DNPGB",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2620,2620",
+            "configMediaId": "34cd8138cdd1484eb7f342491f01aa4d",
+            "configMediaThumbId": "34cd8138cdd1484eb7f342491f01aa4d",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/2e/d7/fa/1724148870/option-nolte-glasrahmen-dn-pgb.jpg?ts=1724148870",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/2e/d7/fa/1724148870/option-nolte-glasrahmen-dn-pgb_400x400.jpg?ts=1724148871"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb21d470f789b538c5ec19119e",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.741000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb21d470f789b538c5ec19119e",
+            "configGroupId": "01929eeb21b97278bfe57ef8e7a44e00",
+            "label": "Parsolglas Bronze",
+            "labelId": "DRPGB",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2622,2622",
+            "configMediaId": "a64cc926ee014d45917f072d0f1028e2",
+            "configMediaThumbId": "a64cc926ee014d45917f072d0f1028e2",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/27/1e/5f/1724148870/option-nolte-glasrahmen-dr-pgb.jpg?ts=1724148870",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/27/1e/5f/1724148870/option-nolte-glasrahmen-dr-pgb_400x400.jpg?ts=1724148871"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb21de71f6ac293a107433825b",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.751000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb21de71f6ac293a107433825b",
+            "configGroupId": "01929eeb21b97278bfe57ef8e7a44e00",
+            "label": "Parsolglas Grau",
+            "labelId": "DEPGG",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2616,2616",
+            "configMediaId": "63a3729b6c8c4f3cb10e422f163fa79f",
+            "configMediaThumbId": "63a3729b6c8c4f3cb10e422f163fa79f",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/1e/f6/de/1724148870/option-nolte-glasrahmen-de-pgg.jpg?ts=1724148870",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/1e/f6/de/1724148870/option-nolte-glasrahmen-de-pgg_400x400.jpg?ts=1724148870"
+          }
+        ]
+      },
+      {
+        "extensions": {
+          "foreignKeys": {
+            "extensions": [],
+            "apiAlias": "kit_config_group_foreign_keys_extension"
+          }
+        },
+        "_uniqueIdentifier": "01929eeb21e970fa8021a04010ca1097",
+        "versionId": null,
+        "translated": [],
+        "createdAt": {
+          "date": "2024-10-18 09:17:42.761000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "updatedAt": null,
+        "_entityName": "array-entity",
+        "uuid": "01929eeb21e970fa8021a04010ca1097",
+        "configProfileId": "01929eeb2173714b9a88951a9d607464",
+        "customField": "optionsgruppe_griff",
+        "label": "Griff",
+        "type": 1,
+        "position": 6,
+        "required": 1,
+        "pricerule": "$optionspreis*$ausstattung_griff",
+        "description": null,
+        "configProfile": null,
+        "options": [
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb21ec721cbf4a353aab540495",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.764000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb21ec721cbf4a353aab540495",
+            "configGroupId": "01929eeb21e970fa8021a04010ca1097",
+            "label": "Griffmulde Arcticweiß",
+            "labelId": "598",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": "[{\"cf\":\"optionsgruppe_griffposition\",\"id\":\"H\"}]",
+            "importedMediaIds": "2378,2378",
+            "configMediaId": "5adeef920ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adeef920ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/e2/23/83/1713872610/option-nolte-griff-598.jpg?ts=1723808376",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/e2/23/83/1713872610/option-nolte-griff-598_400x400.jpg?ts=1723808380"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb21ef7109837e525cefee4f73",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.768000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb21ef7109837e525cefee4f73",
+            "configGroupId": "01929eeb21e970fa8021a04010ca1097",
+            "label": "Griffmulde Edelstahl-Optik",
+            "labelId": "595",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": "[{\"cf\":\"optionsgruppe_griffposition\",\"id\":\"H\"}]",
+            "importedMediaIds": "2377,2377",
+            "configMediaId": "5adeeeee0ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adeeeee0ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/ee/af/e9/1713872610/option-nolte-griff-595.jpg?ts=1723808375",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/ee/af/e9/1713872610/option-nolte-griff-595_400x400.jpg?ts=1723808379"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb21f3717ebe00f94b8bbf8100",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.771000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb21f3717ebe00f94b8bbf8100",
+            "configGroupId": "01929eeb21e970fa8021a04010ca1097",
+            "label": "Griffmulde Manganbronze",
+            "labelId": "791",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": "[{\"cf\":\"optionsgruppe_griffposition\",\"id\":\"H\"}]",
+            "importedMediaIds": "2380,2380",
+            "configMediaId": "5adef1010ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adef1010ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/46/f4/0f/1723808369/option-nolte-griff-791.jpg?ts=1723808369",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/46/f4/0f/1723808369/option-nolte-griff-791_400x400.jpg?ts=1723808379"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb21f670988d4c1a36b85acaaf",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.774000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb21f670988d4c1a36b85acaaf",
+            "configGroupId": "01929eeb21e970fa8021a04010ca1097",
+            "label": "Griffmulde Quarzgrau",
+            "labelId": "593",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": "[{\"cf\":\"optionsgruppe_griffposition\",\"id\":\"H\"}]",
+            "importedMediaIds": "2376,2376",
+            "configMediaId": "5adeee430ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adeee430ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/e8/36/11/1713872610/option-nolte-griff-593.jpg?ts=1723808376",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/e8/36/11/1713872610/option-nolte-griff-593_400x400.jpg?ts=1723808379"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb21f9736eaf1e2b1e7117ef62",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.778000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb21f9736eaf1e2b1e7117ef62",
+            "configGroupId": "01929eeb21e970fa8021a04010ca1097",
+            "label": "Griffmulde Schwarz",
+            "labelId": "591",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": "[{\"cf\":\"optionsgruppe_griffposition\",\"id\":\"H\"}]",
+            "importedMediaIds": "2375,2375",
+            "configMediaId": "5adeed610ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adeed610ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/b6/eb/94/1713872610/option-nolte-griff-591.jpg?ts=1723808376",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/b6/eb/94/1713872610/option-nolte-griff-591_400x400.jpg?ts=1723808380"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb21fd7123b764a55ca38516ea",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.781000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb21fd7123b764a55ca38516ea",
+            "configGroupId": "01929eeb21e970fa8021a04010ca1097",
+            "label": "Griffmulde Weiß",
+            "labelId": "790",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": "[{\"cf\":\"optionsgruppe_griffposition\",\"id\":\"H\"}]",
+            "importedMediaIds": "2379,2379",
+            "configMediaId": "5adef0630ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adef0630ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/24/5d/21/1713872610/option-nolte-griff-790.jpg?ts=1723808375",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/24/5d/21/1713872610/option-nolte-griff-790_400x400.jpg?ts=1723808379"
+          }
+        ]
+      },
+      {
+        "extensions": {
+          "foreignKeys": {
+            "extensions": [],
+            "apiAlias": "kit_config_group_foreign_keys_extension"
+          }
+        },
+        "_uniqueIdentifier": "01929eeb21fd7123b764a55ca385c864",
+        "versionId": null,
+        "translated": [],
+        "createdAt": {
+          "date": "2024-10-18 09:17:42.782000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "updatedAt": null,
+        "_entityName": "array-entity",
+        "uuid": "01929eeb21fd7123b764a55ca385c864",
+        "configProfileId": "01929eeb2173714b9a88951a9d607464",
+        "customField": "optionsgruppe_griffposition",
+        "label": "Griffposition",
+        "type": 1,
+        "position": 7,
+        "required": 1,
+        "pricerule": null,
+        "description": null,
+        "configProfile": null,
+        "options": [
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb220171e7b3024d8a2883cbeb",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.785000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb220171e7b3024d8a2883cbeb",
+            "configGroupId": "01929eeb21fd7123b764a55ca385c864",
+            "label": "Grifflos MatrixArt",
+            "labelId": "H",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2601,2601",
+            "configMediaId": "5ae09f5a0ac611ef870a52540083bca3",
+            "configMediaThumbId": "5ae09f5a0ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/31/d3/01/1714113731/option-griffposition-7.jpg?ts=1724354087",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/31/d3/01/1714113731/option-griffposition-7_400x400.jpg?ts=1724354102"
+          }
+        ]
+      },
+      {
+        "extensions": {
+          "foreignKeys": {
+            "extensions": [],
+            "apiAlias": "kit_config_group_foreign_keys_extension"
+          }
+        },
+        "_uniqueIdentifier": "01929eeb220171e7b3024d8a2941428e",
+        "versionId": null,
+        "translated": [],
+        "createdAt": {
+          "date": "2024-10-18 09:17:42.786000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "updatedAt": null,
+        "_entityName": "array-entity",
+        "uuid": "01929eeb220171e7b3024d8a2941428e",
+        "configProfileId": "01929eeb2173714b9a88951a9d607464",
+        "customField": "optionsgruppe_tueranschlag",
+        "label": "Türanschlag",
+        "type": 1,
+        "position": 8,
+        "required": 1,
+        "pricerule": null,
+        "description": null,
+        "configProfile": null,
+        "options": [
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb220573a493b6ed2537716fa2",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.789000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb220573a493b6ed2537716fa2",
+            "configGroupId": "01929eeb220171e7b3024d8a2941428e",
+            "label": "Links",
+            "labelId": "L",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2555,2555",
+            "configMediaId": "5adf63b90ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adf63b90ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/1e/ed/08/1714075561/option-tueranschlag-links.jpg?ts=1724354086",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/1e/ed/08/1714075561/option-tueranschlag-links_400x400.jpg?ts=1724354102"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb2208704cbb4cab3a8e90c7a3",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.792000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb2208704cbb4cab3a8e90c7a3",
+            "configGroupId": "01929eeb220171e7b3024d8a2941428e",
+            "label": "Rechts",
+            "labelId": "R",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2556,2556",
+            "configMediaId": "5adf64750ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adf64750ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/f7/6d/7d/1714075561/option-tueranschlag-rechts.jpg?ts=1724354086",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/f7/6d/7d/1714075561/option-tueranschlag-rechts_400x400.jpg?ts=1724354102"
+          }
+        ]
+      },
+      {
+        "extensions": {
+          "foreignKeys": {
+            "extensions": [],
+            "apiAlias": "kit_config_group_foreign_keys_extension"
+          }
+        },
+        "_uniqueIdentifier": "01929eeb220973f288df5d1b8f91bfdb",
+        "versionId": null,
+        "translated": [],
+        "createdAt": {
+          "date": "2024-10-18 09:17:42.793000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "updatedAt": null,
+        "_entityName": "array-entity",
+        "uuid": "01929eeb220973f288df5d1b8f91bfdb",
+        "configProfileId": "01929eeb2173714b9a88951a9d607464",
+        "customField": "optionsgruppe_auszug",
+        "label": "Auszug",
+        "type": 1,
+        "position": 9,
+        "required": 1,
+        "pricerule": "$optionspreis*$ausstattung_auszug",
+        "description": null,
+        "configProfile": null,
+        "options": [
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb2210729c90f77b1e31bf8eba",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.800000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb2210729c90f77b1e31bf8eba",
+            "configGroupId": "01929eeb220973f288df5d1b8f91bfdb",
+            "label": "PremiumLINE Box",
+            "labelId": "PLB",
+            "price": 44,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2094,2094",
+            "configMediaId": "5ade2a270ac611ef870a52540083bca3",
+            "configMediaThumbId": "5ade2a270ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/24/f8/7f/1724095522/option-nolte-auszug-plb.jpg?ts=1724095522",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/24/f8/7f/1724095522/option-nolte-auszug-plb_400x400.jpg?ts=1724095526"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb221371a59ac6a0a15946dfc4",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.803000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb221371a59ac6a0a15946dfc4",
+            "configGroupId": "01929eeb220973f288df5d1b8f91bfdb",
+            "label": "PremiumLINE Glas",
+            "labelId": "PLG",
+            "price": 80,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2096,2096",
+            "configMediaId": "5ade2b670ac611ef870a52540083bca3",
+            "configMediaThumbId": "5ade2b670ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/14/fd/ba/1724095522/option-nolte-auszug-plg.jpg?ts=1724095522",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/14/fd/ba/1724095522/option-nolte-auszug-plg_400x400.jpg?ts=1724095526"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb220c716ebf8da9b6e9d37ba2",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.796000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb220c716ebf8da9b6e9d37ba2",
+            "configGroupId": "01929eeb220973f288df5d1b8f91bfdb",
+            "label": "PremiumLINE Reling",
+            "labelId": "PLE",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2095,2095",
+            "configMediaId": "5ade2ac90ac611ef870a52540083bca3",
+            "configMediaThumbId": "5ade2ac90ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/8e/23/6a/1724095522/option-nolte-auszug-ple.jpg?ts=1724095522",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/8e/23/6a/1724095522/option-nolte-auszug-ple_400x400.jpg?ts=1724095526"
+          }
+        ]
+      },
+      {
+        "extensions": {
+          "foreignKeys": {
+            "extensions": [],
+            "apiAlias": "kit_config_group_foreign_keys_extension"
+          }
+        },
+        "_uniqueIdentifier": "01929eeb221470af9c99e48cac313cbe",
+        "versionId": null,
+        "translated": [],
+        "createdAt": {
+          "date": "2024-10-18 09:17:42.804000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "updatedAt": null,
+        "_entityName": "array-entity",
+        "uuid": "01929eeb221470af9c99e48cac313cbe",
+        "configProfileId": "01929eeb2173714b9a88951a9d607464",
+        "customField": "optionsgruppe_geraetebezeichnung",
+        "label": "Gerätebezeichnung",
+        "type": 3,
+        "position": 10,
+        "required": 1,
+        "pricerule": null,
+        "description": null,
+        "configProfile": null,
+        "options": [
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb22157273963d66af835e09a9",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.805000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb22157273963d66af835e09a9",
+            "configGroupId": "01929eeb221470af9c99e48cac313cbe",
+            "label": "Gerätebezeichnung",
+            "labelId": "GB",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": null,
+            "configMediaId": null,
+            "configMediaThumbId": null,
+            "configGroup": null,
+            "configMedia": null,
+            "configMediaThumb": null
+          }
+        ]
+      },
+      {
+        "extensions": {
+          "foreignKeys": {
+            "extensions": [],
+            "apiAlias": "kit_config_group_foreign_keys_extension"
+          }
+        },
+        "_uniqueIdentifier": "01929eeb22157273963d66af841dc44d",
+        "versionId": null,
+        "translated": [],
+        "createdAt": {
+          "date": "2024-10-18 09:17:42.805000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "updatedAt": null,
+        "_entityName": "array-entity",
+        "uuid": "01929eeb22157273963d66af841dc44d",
+        "configProfileId": "01929eeb2173714b9a88951a9d607464",
+        "customField": "optionsgruppe_fusshoehe",
+        "label": "Fußhöhe",
+        "type": 1,
+        "position": 11,
+        "required": 1,
+        "pricerule": null,
+        "description": null,
+        "configProfile": null,
+        "options": [
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb222372e7afa9cebf2a3ef727",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.819000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb222372e7afa9cebf2a3ef727",
+            "configGroupId": "01929eeb22157273963d66af841dc44d",
+            "label": "12 cm",
+            "labelId": "12",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "1012,1012",
+            "configMediaId": "5adb64c60ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adb64c60ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/72/fa/1e/1714075561/option-fusshoehe-4.jpg?ts=1724354086",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/72/fa/1e/1714075561/option-fusshoehe-4_400x400.jpg?ts=1724354102"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb222673d58665f96e17a927cf",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.823000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb222673d58665f96e17a927cf",
+            "configGroupId": "01929eeb22157273963d66af841dc44d",
+            "label": "15 cm",
+            "labelId": "15",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "1013,1013",
+            "configMediaId": "5adb655d0ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adb655d0ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/19/13/37/1714075561/option-fusshoehe-5.jpg?ts=1724354087",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/19/13/37/1714075561/option-fusshoehe-5_400x400.jpg?ts=1724354103"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb222a70e3a00c0ff9a00e4d7a",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.826000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb222a70e3a00c0ff9a00e4d7a",
+            "configGroupId": "01929eeb22157273963d66af841dc44d",
+            "label": "17 cm",
+            "labelId": "17",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "1014,1014",
+            "configMediaId": "5adb65f40ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adb65f40ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/16/49/4f/1714075561/option-fusshoehe-6.jpg?ts=1724354086",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/16/49/4f/1714075561/option-fusshoehe-6_400x400.jpg?ts=1724354102"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb222d70109f6bb7b4b6a74660",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.830000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb222d70109f6bb7b4b6a74660",
+            "configGroupId": "01929eeb22157273963d66af841dc44d",
+            "label": "20 cm",
+            "labelId": "20",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2557,2557",
+            "configMediaId": "5adf65220ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adf65220ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/f8/33/03/1714075561/option-fusshoehe-7.jpg?ts=1724354086",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/f8/33/03/1714075561/option-fusshoehe-7_400x400.jpg?ts=1724354101"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb221970bb9ff6581d6deaefd1",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.809000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb221970bb9ff6581d6deaefd1",
+            "configGroupId": "01929eeb22157273963d66af841dc44d",
+            "label": "5 cm",
+            "labelId": "5",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "1009,1009",
+            "configMediaId": "5adb62cc0ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adb62cc0ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/b2/27/bd/1714075561/option-fusshoehe-1.jpg?ts=1724354086",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/b2/27/bd/1714075561/option-fusshoehe-1_400x400.jpg?ts=1724354102"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb221c71408e75dec2fbc8133c",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.813000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb221c71408e75dec2fbc8133c",
+            "configGroupId": "01929eeb22157273963d66af841dc44d",
+            "label": "7 cm",
+            "labelId": "7",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "1010,1010",
+            "configMediaId": "5adb63840ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adb63840ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/59/5c/d0/1714075560/option-fusshoehe-2.jpg?ts=1724354087",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/59/5c/d0/1714075560/option-fusshoehe-2_400x400.jpg?ts=1724354103"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb222070ea8d2b2729d7062e3a",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.816000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb222070ea8d2b2729d7062e3a",
+            "configGroupId": "01929eeb22157273963d66af841dc44d",
+            "label": "9 cm",
+            "labelId": "9",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "1011,1011",
+            "configMediaId": "5adb642c0ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adb642c0ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/67/27/8e/1714075561/option-fusshoehe-3.jpg?ts=1724354086",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/67/27/8e/1714075561/option-fusshoehe-3_400x400.jpg?ts=1724354102"
+          }
+        ]
+      },
+      {
+        "extensions": {
+          "foreignKeys": {
+            "extensions": [],
+            "apiAlias": "kit_config_group_foreign_keys_extension"
+          }
+        },
+        "_uniqueIdentifier": "01929eeb222e712b809bfa2d9c3faa0e",
+        "versionId": null,
+        "translated": [],
+        "createdAt": {
+          "date": "2024-10-18 09:17:42.830000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "updatedAt": null,
+        "_entityName": "array-entity",
+        "uuid": "01929eeb222e712b809bfa2d9c3faa0e",
+        "configProfileId": "01929eeb2173714b9a88951a9d607464",
+        "customField": "optionsgruppe_optionale_ausstattung",
+        "label": "Optionale Ausstattung",
+        "type": 4,
+        "position": 12,
+        "required": 0,
+        "pricerule": "$optionspreis",
+        "description": null,
+        "configProfile": null
+      }
+    ],
+    "profil": "NK-P-MA-L23",
+    "price": 230
+  },
+  "NK-P-MA-M15": {
+    "groups": [
+      {
+        "extensions": {
+          "foreignKeys": {
+            "extensions": [],
+            "apiAlias": "kit_config_group_foreign_keys_extension"
+          }
+        },
+        "_uniqueIdentifier": "01929eeb223073eeafabcee237d64ca2",
+        "versionId": null,
+        "translated": [],
+        "createdAt": {
+          "date": "2024-10-18 09:17:42.832000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "updatedAt": null,
+        "_entityName": "array-entity",
+        "uuid": "01929eeb223073eeafabcee237d64ca2",
+        "configProfileId": "01929eeb222f73ce81482e675e04754e",
+        "customField": "optionsgruppe_programm",
+        "label": "Produktlinie",
+        "type": 1,
+        "position": 1,
+        "required": 1,
+        "pricerule": null,
+        "description": null,
+        "configProfile": null,
+        "options": [
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb22347226ad7b860fcfc8375f",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.836000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb22347226ad7b860fcfc8375f",
+            "configGroupId": "01929eeb223073eeafabcee237d64ca2",
+            "label": "Manhattan",
+            "labelId": "M15",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": "Melaminharz matt, Dickkante in Frontfarbe, Stärke: 19 mm",
+            "relation": null,
+            "importedMediaIds": "2454,2454",
+            "configMediaId": "5adf200c0ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adf200c0ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/8c/20/91/1713338308/option-nolte-manhattan.jpg?ts=1720867297",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/8c/20/91/1713338308/option-nolte-manhattan_400x400.jpg?ts=1713338313"
+          }
+        ]
+      },
+      {
+        "extensions": {
+          "foreignKeys": {
+            "extensions": [],
+            "apiAlias": "kit_config_group_foreign_keys_extension"
+          }
+        },
+        "_uniqueIdentifier": "01929eeb22347226ad7b860fd00de464",
+        "versionId": null,
+        "translated": [],
+        "createdAt": {
+          "date": "2024-10-18 09:17:42.837000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "updatedAt": null,
+        "_entityName": "array-entity",
+        "uuid": "01929eeb22347226ad7b860fd00de464",
+        "configProfileId": "01929eeb222f73ce81482e675e04754e",
+        "customField": "optionsgruppe_front",
+        "label": "Front",
+        "type": 1,
+        "position": 2,
+        "required": 1,
+        "pricerule": null,
+        "description": "Melaminharz matt, Dickkante in Frontfarbe, Stärke: 19 mm",
+        "configProfile": null,
+        "options": [
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb223872ed9eba4f31a71f080c",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.840000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb223872ed9eba4f31a71f080c",
+            "configGroupId": "01929eeb22347226ad7b860fd00de464",
+            "label": "Chalet Eiche",
+            "labelId": "495",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2441,2441",
+            "configMediaId": "5adf176f0ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adf176f0ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/23/95/e1/1713872602/option-nolte-manhattan-495.jpg?ts=1724403598",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/23/95/e1/1713872602/option-nolte-manhattan-495_400x400.jpg?ts=1713872604"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb223b72ffaa389cb0cc5f0fce",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.844000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb223b72ffaa389cb0cc5f0fce",
+            "configGroupId": "01929eeb22347226ad7b860fd00de464",
+            "label": "Eiche Graphitsilber",
+            "labelId": "486",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2437,2437",
+            "configMediaId": "5adf14c00ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adf14c00ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/80/f3/4a/1713872602/option-nolte-manhattan-486.jpg?ts=1724403598",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/80/f3/4a/1713872602/option-nolte-manhattan-486_400x400.jpg?ts=1713872603"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb223f73988119e522a96abf4e",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.847000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb223f73988119e522a96abf4e",
+            "configGroupId": "01929eeb22347226ad7b860fd00de464",
+            "label": "Eiche Nero",
+            "labelId": "48N",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2439,2439",
+            "configMediaId": "5adf16200ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adf16200ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/0b/39/23/1713872602/option-nolte-manhattan-48n.jpg?ts=1724403598",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/0b/39/23/1713872602/option-nolte-manhattan-48n_400x400.jpg?ts=1713872603"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb224271839fa75d6726c6576d",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.850000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb224271839fa75d6726c6576d",
+            "configGroupId": "01929eeb22347226ad7b860fd00de464",
+            "label": "Kiruna Birke",
+            "labelId": "49B",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2442,2442",
+            "configMediaId": "5adf18170ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adf18170ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/54/d0/92/1713872602/option-nolte-manhattan-49b.jpg?ts=1724403598",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/54/d0/92/1713872602/option-nolte-manhattan-49b_400x400.jpg?ts=1713872603"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb224471dbad8822c21f7e8a9f",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.852000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb224471dbad8822c21f7e8a9f",
+            "configGroupId": "01929eeb22347226ad7b860fd00de464",
+            "label": "Natureiche edelmatt",
+            "labelId": "48T",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": null,
+            "configMediaId": null,
+            "configMediaThumbId": null,
+            "configGroup": null,
+            "configMedia": null,
+            "configMediaThumb": null
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb22477135beada597993d9883",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.855000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb22477135beada597993d9883",
+            "configGroupId": "01929eeb22347226ad7b860fd00de464",
+            "label": "Vulkaneiche",
+            "labelId": "489",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2438,2438",
+            "configMediaId": "5adf15750ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adf15750ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/02/43/6e/1713872602/option-nolte-manhattan-489.jpg?ts=1724403598",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/02/43/6e/1713872602/option-nolte-manhattan-489_400x400.jpg?ts=1713872604"
+          }
+        ]
+      },
+      {
+        "extensions": {
+          "foreignKeys": {
+            "extensions": [],
+            "apiAlias": "kit_config_group_foreign_keys_extension"
+          }
+        },
+        "_uniqueIdentifier": "01929eeb22487163a957ab0c076d29de",
+        "versionId": null,
+        "translated": [],
+        "createdAt": {
+          "date": "2024-10-18 09:17:42.856000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "updatedAt": null,
+        "_entityName": "array-entity",
+        "uuid": "01929eeb22487163a957ab0c076d29de",
+        "configProfileId": "01929eeb222f73ce81482e675e04754e",
+        "customField": "optionsgruppe_korpus",
+        "label": "Korpus",
+        "type": 1,
+        "position": 3,
+        "required": 1,
+        "pricerule": null,
+        "description": null,
+        "configProfile": null,
+        "options": [
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb224b704f9fe16f250fd822ae",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.859000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb224b704f9fe16f250fd822ae",
+            "configGroupId": "01929eeb22487163a957ab0c076d29de",
+            "label": "Arcticweiß",
+            "labelId": "ARW",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2387,2387",
+            "configMediaId": "5adef25b0ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adef25b0ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/b9/d6/4c/1713872620/option-nolte-korpus-arw.jpg?ts=1720867300",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/b9/d6/4c/1713872620/option-nolte-korpus-arw_400x400.jpg?ts=1713872620"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb224e704da913773e776a8fd2",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.863000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb224e704da913773e776a8fd2",
+            "configGroupId": "01929eeb22487163a957ab0c076d29de",
+            "label": "Asteiche natur",
+            "labelId": "AEN",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2386,2386",
+            "configMediaId": "5adef19d0ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adef19d0ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/68/6d/21/1713872620/option-nolte-korpus-aen.jpg?ts=1720867300",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/68/6d/21/1713872620/option-nolte-korpus-aen_400x400.jpg?ts=1713872620"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb2252736aa535b36854ac4d62",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.866000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb2252736aa535b36854ac4d62",
+            "configGroupId": "01929eeb22487163a957ab0c076d29de",
+            "label": "Beton",
+            "labelId": "BET",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2390,2390",
+            "configMediaId": "5adef4640ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adef4640ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/0b/fb/5e/1713872620/option-nolte-korpus-bet.jpg?ts=1720867300",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/0b/fb/5e/1713872620/option-nolte-korpus-bet_400x400.jpg?ts=1713872620"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb225572578dd652db5e9568d1",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.870000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb225572578dd652db5e9568d1",
+            "configGroupId": "01929eeb22487163a957ab0c076d29de",
+            "label": "Chalet Eiche",
+            "labelId": "CED",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2391,2391",
+            "configMediaId": "5adef50c0ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adef50c0ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/c2/67/bb/1713872620/option-nolte-korpus-ced.jpg?ts=1720867300",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/c2/67/bb/1713872620/option-nolte-korpus-ced_400x400.jpg?ts=1713872620"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb225970a188c922536a6e1322",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.873000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb225970a188c922536a6e1322",
+            "configGroupId": "01929eeb22487163a957ab0c076d29de",
+            "label": "Graphit",
+            "labelId": "GTD",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2393,2393",
+            "configMediaId": "5adef65c0ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adef65c0ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/a1/1d/cd/1713872620/option-nolte-korpus-gtd.jpg?ts=1720867300",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/a1/1d/cd/1713872620/option-nolte-korpus-gtd_400x400.jpg?ts=1713872620"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb225a720a8816553436728c56",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.875000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb225a720a8816553436728c56",
+            "configGroupId": "01929eeb22487163a957ab0c076d29de",
+            "label": "Lava",
+            "labelId": "LAD",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": null,
+            "configMediaId": null,
+            "configMediaThumbId": null,
+            "configGroup": null,
+            "configMedia": null,
+            "configMediaThumb": null
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb225e714e81a833e876adaadf",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.878000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb225e714e81a833e876adaadf",
+            "configGroupId": "01929eeb22487163a957ab0c076d29de",
+            "label": "Magnolia",
+            "labelId": "AWD",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2388,2388",
+            "configMediaId": "5adef30c0ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adef30c0ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/93/dd/95/1713872620/option-nolte-korpus-awd.jpg?ts=1720867300",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/93/dd/95/1713872620/option-nolte-korpus-awd_400x400.jpg?ts=1713872620"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb2261733c86a6bed1deca625c",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.881000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb2261733c86a6bed1deca625c",
+            "configGroupId": "01929eeb22487163a957ab0c076d29de",
+            "label": "Platingrau",
+            "labelId": "PGD",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2394,2394",
+            "configMediaId": "5adef7030ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adef7030ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/ae/9a/c3/1713872620/option-nolte-korpus-pgd.jpg?ts=1720867300",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/ae/9a/c3/1713872620/option-nolte-korpus-pgd_400x400.jpg?ts=1713872620"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb22647029ac3ac41ecc1de8eb",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.885000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb22647029ac3ac41ecc1de8eb",
+            "configGroupId": "01929eeb22487163a957ab0c076d29de",
+            "label": "Quarzgrau",
+            "labelId": "QGD",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2397,2397",
+            "configMediaId": "5adef8f60ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adef8f60ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/b3/15/96/1713872620/option-nolte-korpus-qgd.jpg?ts=1720867300",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/b3/15/96/1713872620/option-nolte-korpus-qgd_400x400.jpg?ts=1713872620"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb2268711c8d0c696c98ec0799",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.888000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb2268711c8d0c696c98ec0799",
+            "configGroupId": "01929eeb22487163a957ab0c076d29de",
+            "label": "Sahara",
+            "labelId": "SHD",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2398,2398",
+            "configMediaId": "5adef9990ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adef9990ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/6f/bc/6e/1713872620/option-nolte-korpus-shd.jpg?ts=1720867300",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/6f/bc/6e/1713872620/option-nolte-korpus-shd_400x400.jpg?ts=1713872620"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb226b71e78c211e3f69a2ba41",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.891000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb226b71e78c211e3f69a2ba41",
+            "configGroupId": "01929eeb22487163a957ab0c076d29de",
+            "label": "Vulkaneiche",
+            "labelId": "ED9",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2392,2392",
+            "configMediaId": "5adef5b50ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adef5b50ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/d8/8e/8f/1713872620/option-nolte-korpus-ed9.jpg?ts=1720867300",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/d8/8e/8f/1713872620/option-nolte-korpus-ed9_400x400.jpg?ts=1713872620"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb226e73cea7a6c0e610a0d4ed",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.894000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb226e73cea7a6c0e610a0d4ed",
+            "configGroupId": "01929eeb22487163a957ab0c076d29de",
+            "label": "Weiß",
+            "labelId": "PWD",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2395,2395",
+            "configMediaId": "5adef7aa0ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adef7aa0ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/5a/fe/ac/1713872620/option-nolte-korpus-pwd.jpg?ts=1720867300",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/5a/fe/ac/1713872620/option-nolte-korpus-pwd_400x400.jpg?ts=1713872620"
+          }
+        ]
+      },
+      {
+        "extensions": {
+          "foreignKeys": {
+            "extensions": [],
+            "apiAlias": "kit_config_group_foreign_keys_extension"
+          }
+        },
+        "_uniqueIdentifier": "01929eeb226f7320959b9ad055fff77c",
+        "versionId": null,
+        "translated": [],
+        "createdAt": {
+          "date": "2024-10-18 09:17:42.895000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "updatedAt": null,
+        "_entityName": "array-entity",
+        "uuid": "01929eeb226f7320959b9ad055fff77c",
+        "configProfileId": "01929eeb222f73ce81482e675e04754e",
+        "customField": "optionsgruppe_glastuer",
+        "label": "Glasrahmen",
+        "type": 1,
+        "position": 4,
+        "required": 1,
+        "pricerule": null,
+        "description": null,
+        "configProfile": null,
+        "options": [
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb22727391877a7ef9b1b44133",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.898000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb22727391877a7ef9b1b44133",
+            "configGroupId": "01929eeb226f7320959b9ad055fff77c",
+            "label": "Alurahmen-Glastür - DN",
+            "labelId": "DN",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": "[{\"cf\":\"optionsgruppe_glasart\",\"id\":\"DNPGB\"},{\"cf\":\"optionsgruppe_glasart\",\"id\":\"DNSGG\"},{\"cf\":\"optionsgruppe_griff\",\"id\":\"999\"}]",
+            "importedMediaIds": "2621,2621",
+            "configMediaId": "9252eb3b68f24a6f87cd37a009cbdc4a",
+            "configMediaThumbId": "9252eb3b68f24a6f87cd37a009cbdc4a",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/38/0d/b9/1724148870/option-nolte-glasrahmen-dn-sgg.jpg?ts=1724148870",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/38/0d/b9/1724148870/option-nolte-glasrahmen-dn-sgg_400x400.jpg?ts=1724148871"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb22757394b8941be2d5fe3181",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.901000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb22757394b8941be2d5fe3181",
+            "configGroupId": "01929eeb226f7320959b9ad055fff77c",
+            "label": "Alurahmen-Glastür schmal - DR",
+            "labelId": "DR",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": "[{\"cf\":\"optionsgruppe_glasart\",\"id\":\"DRPGB\"},{\"cf\":\"optionsgruppe_glasart\",\"id\":\"DRSGG\"},{\"cf\":\"optionsgruppe_griff\",\"id\":\"999\"}]",
+            "importedMediaIds": "2622,2622",
+            "configMediaId": "a64cc926ee014d45917f072d0f1028e2",
+            "configMediaThumbId": "a64cc926ee014d45917f072d0f1028e2",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/27/1e/5f/1724148870/option-nolte-glasrahmen-dr-pgb.jpg?ts=1724148870",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/27/1e/5f/1724148870/option-nolte-glasrahmen-dr-pgb_400x400.jpg?ts=1724148871"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb227870ea86a45fa962fe1f5f",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.905000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb227870ea86a45fa962fe1f5f",
+            "configGroupId": "01929eeb226f7320959b9ad055fff77c",
+            "label": "Flächenbündige Glastür - DE",
+            "labelId": "DEES",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": "[{\"cf\":\"optionsgruppe_glasart\",\"id\":\"DEPGG\"},{\"cf\":\"optionsgruppe_glasart\",\"id\":\"DESAG\"},{\"cf\":\"optionsgruppe_griff\",\"id\":\"999\"}]",
+            "importedMediaIds": "2616,2616",
+            "configMediaId": "63a3729b6c8c4f3cb10e422f163fa79f",
+            "configMediaThumbId": "63a3729b6c8c4f3cb10e422f163fa79f",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/1e/f6/de/1724148870/option-nolte-glasrahmen-de-pgg.jpg?ts=1724148870",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/1e/f6/de/1724148870/option-nolte-glasrahmen-de-pgg_400x400.jpg?ts=1724148870"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb227c7023a43c8d3d1dd0e27d",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.908000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb227c7023a43c8d3d1dd0e27d",
+            "configGroupId": "01929eeb226f7320959b9ad055fff77c",
+            "label": "Flächenbündige Glastür - DF",
+            "labelId": "DF",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": "[{\"cf\":\"optionsgruppe_glasart\",\"id\":\"DFSWG\"},{\"cf\":\"optionsgruppe_glasart\",\"id\":\"DFWLG\"},{\"cf\":\"optionsgruppe_griff\",\"id\":\"R12\"},{\"cf\":\"optionsgruppe_griff\",\"id\":\"R25\"},{\"cf\":\"optionsgruppe_griff\",\"id\":\"R45\"},{\"cf\":\"optionsgruppe_griff\",\"id\":\"R70\"},{\"cf\":\"optionsgruppe_griff\",\"id\":\"999\"}]",
+            "importedMediaIds": "2618,2618",
+            "configMediaId": "d7c7e92edf2943d9982ee87d7cf7df9d",
+            "configMediaThumbId": "d7c7e92edf2943d9982ee87d7cf7df9d",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/34/60/b5/1724148870/option-nolte-glasrahmen-df-swg.jpg?ts=1724148870",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/34/60/b5/1724148870/option-nolte-glasrahmen-df-swg_400x400.jpg?ts=1724148871"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb227f7118a8244589e12e5459",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.911000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb227f7118a8244589e12e5459",
+            "configGroupId": "01929eeb226f7320959b9ad055fff77c",
+            "label": "Flächenbündige Glastür - DS",
+            "labelId": "DSSC",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": "[{\"cf\":\"optionsgruppe_glasart\",\"id\":\"DSSGG\"},{\"cf\":\"optionsgruppe_griff\",\"id\":\"999\"}]",
+            "importedMediaIds": "2624,2624",
+            "configMediaId": "e9d1eee8f42543b1a5babfa85e1effb5",
+            "configMediaThumbId": "e9d1eee8f42543b1a5babfa85e1effb5",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/c3/27/ac/1724148870/option-nolte-glasrahmen-ds-sgg.jpg?ts=1724148870",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/c3/27/ac/1724148870/option-nolte-glasrahmen-ds-sgg_400x400.jpg?ts=1724148871"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb228271b7be5502b6bac82695",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.914000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb228271b7be5502b6bac82695",
+            "configGroupId": "01929eeb226f7320959b9ad055fff77c",
+            "label": "Rahmen-Glastür",
+            "labelId": "M15",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": "[{\"cf\":\"optionsgruppe_glasart\",\"id\":\"FRE\"},{\"cf\":\"optionsgruppe_glasart\",\"id\":\"KAG\"},{\"cf\":\"optionsgruppe_glasart\",\"id\":\"SAG\"},{\"cf\":\"optionsgruppe_glasart\",\"id\":\"SGG\"}]",
+            "importedMediaIds": "2625,2625",
+            "configMediaId": "ed82300b12b44c219cea48ce542b1f43",
+            "configMediaThumbId": "ed82300b12b44c219cea48ce542b1f43",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/ac/c5/5f/1724148870/option-nolte-glasrahmen-programmgruppe-1.jpg?ts=1724148870",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/ac/c5/5f/1724148870/option-nolte-glasrahmen-programmgruppe-1_400x400.jpg?ts=1724148871"
+          }
+        ]
+      },
+      {
+        "extensions": {
+          "foreignKeys": {
+            "extensions": [],
+            "apiAlias": "kit_config_group_foreign_keys_extension"
+          }
+        },
+        "_uniqueIdentifier": "01929eeb2283739789ec6a6476234b9c",
+        "versionId": null,
+        "translated": [],
+        "createdAt": {
+          "date": "2024-10-18 09:17:42.915000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "updatedAt": null,
+        "_entityName": "array-entity",
+        "uuid": "01929eeb2283739789ec6a6476234b9c",
+        "configProfileId": "01929eeb222f73ce81482e675e04754e",
+        "customField": "optionsgruppe_glasart",
+        "label": "Glasart",
+        "type": 1,
+        "position": 5,
+        "required": 1,
+        "pricerule": null,
+        "description": null,
+        "configProfile": null,
+        "options": [
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb228670f883dfffb17fb109f3",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.918000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb228670f883dfffb17fb109f3",
+            "configGroupId": "01929eeb2283739789ec6a6476234b9c",
+            "label": "Glas Freeze",
+            "labelId": "FRE",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2611,2611",
+            "configMediaId": "e7d4ed498f9c4601ac6774a15a690727",
+            "configMediaThumbId": "e7d4ed498f9c4601ac6774a15a690727",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/48/d6/1b/1724148870/option-nolte-glasart-fre.jpg?ts=1724148870",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/48/d6/1b/1724148870/option-nolte-glasart-fre_400x400.jpg?ts=1724148870"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb22b070a9a60ef34ab9392f18",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.960000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb22b070a9a60ef34ab9392f18",
+            "configGroupId": "01929eeb2283739789ec6a6476234b9c",
+            "label": "Glas Grau satiniert",
+            "labelId": "DFSWG",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2618,2618",
+            "configMediaId": "d7c7e92edf2943d9982ee87d7cf7df9d",
+            "configMediaThumbId": "d7c7e92edf2943d9982ee87d7cf7df9d",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/34/60/b5/1724148870/option-nolte-glasrahmen-df-swg.jpg?ts=1724148870",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/34/60/b5/1724148870/option-nolte-glasrahmen-df-swg_400x400.jpg?ts=1724148871"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb229970ddb99876f4e8b9235c",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.937000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb229970ddb99876f4e8b9235c",
+            "configGroupId": "01929eeb2283739789ec6a6476234b9c",
+            "label": "Glas Schwarz getönt",
+            "labelId": "DNSGG",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2621,2621",
+            "configMediaId": "9252eb3b68f24a6f87cd37a009cbdc4a",
+            "configMediaThumbId": "9252eb3b68f24a6f87cd37a009cbdc4a",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/38/0d/b9/1724148870/option-nolte-glasrahmen-dn-sgg.jpg?ts=1724148870",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/38/0d/b9/1724148870/option-nolte-glasrahmen-dn-sgg_400x400.jpg?ts=1724148871"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb229f73238a53dcbf99cc6a2a",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.943000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb229f73238a53dcbf99cc6a2a",
+            "configGroupId": "01929eeb2283739789ec6a6476234b9c",
+            "label": "Glas Schwarz getönt",
+            "labelId": "DRSGG",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2623,2623",
+            "configMediaId": "7812df3db9a8414fb8dcf920f8a4bddc",
+            "configMediaThumbId": "7812df3db9a8414fb8dcf920f8a4bddc",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/9f/a2/8a/1724148870/option-nolte-glasrahmen-dr-sgg.jpg?ts=1724148870",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/9f/a2/8a/1724148870/option-nolte-glasrahmen-dr-sgg_400x400.jpg?ts=1724148871"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb22a971948caa3ccfbdef01ba",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.953000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb22a971948caa3ccfbdef01ba",
+            "configGroupId": "01929eeb2283739789ec6a6476234b9c",
+            "label": "Glas Schwarz getönt",
+            "labelId": "DSSGG",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2624,2624",
+            "configMediaId": "e9d1eee8f42543b1a5babfa85e1effb5",
+            "configMediaThumbId": "e9d1eee8f42543b1a5babfa85e1effb5",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/c3/27/ac/1724148870/option-nolte-glasrahmen-ds-sgg.jpg?ts=1724148870",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/c3/27/ac/1724148870/option-nolte-glasrahmen-ds-sgg_400x400.jpg?ts=1724148871"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb22ac71aebac4850f56f4de30",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.957000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb22ac71aebac4850f56f4de30",
+            "configGroupId": "01929eeb2283739789ec6a6476234b9c",
+            "label": "Glas Weiß lackiert",
+            "labelId": "DFWLG",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2619,2619",
+            "configMediaId": "7b6f0d16706845a198feb39f81ad5423",
+            "configMediaThumbId": "7b6f0d16706845a198feb39f81ad5423",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/b8/ae/29/1724148870/option-nolte-glasrahmen-df-wlg.jpg?ts=1724148870",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/b8/ae/29/1724148870/option-nolte-glasrahmen-df-wlg_400x400.jpg?ts=1724148871"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb22897268b6ee5942bb0f072c",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.921000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb22897268b6ee5942bb0f072c",
+            "configGroupId": "01929eeb2283739789ec6a6476234b9c",
+            "label": "Glas satiniert",
+            "labelId": "SAG",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2614,2614",
+            "configMediaId": "6889a3b498f744209d2d88417d607791",
+            "configMediaThumbId": "6889a3b498f744209d2d88417d607791",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/58/1b/d5/1724148870/option-nolte-glasart-sag.jpg?ts=1724148870",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/58/1b/d5/1724148870/option-nolte-glasart-sag_400x400.jpg?ts=1724148870"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb22a273c591cebbe872479bc7",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.946000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb22a273c591cebbe872479bc7",
+            "configGroupId": "01929eeb2283739789ec6a6476234b9c",
+            "label": "Glas satiniert",
+            "labelId": "DESAG",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2617,2617",
+            "configMediaId": "e59c013c65a5486889dc03482a650549",
+            "configMediaThumbId": "e59c013c65a5486889dc03482a650549",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/a1/00/37/1724148870/option-nolte-glasrahmen-de-sag.jpg?ts=1724148870",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/a1/00/37/1724148870/option-nolte-glasrahmen-de-sag_400x400.jpg?ts=1724148870"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb228c7154abf0c66ac439515e",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.924000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb228c7154abf0c66ac439515e",
+            "configGroupId": "01929eeb2283739789ec6a6476234b9c",
+            "label": "Glas schwarz getönt",
+            "labelId": "SGG",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2615,2615",
+            "configMediaId": "f8bd4cfda51d4e1f8916036b15888d29",
+            "configMediaThumbId": "f8bd4cfda51d4e1f8916036b15888d29",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/06/e1/bc/1724148870/option-nolte-glasart-sgg.jpg?ts=1724148870",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/06/e1/bc/1724148870/option-nolte-glasart-sgg_400x400.jpg?ts=1724148871"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb228f709e880c7f8ddc829129",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.928000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb228f709e880c7f8ddc829129",
+            "configGroupId": "01929eeb2283739789ec6a6476234b9c",
+            "label": "Klarglas",
+            "labelId": "KAG",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2612,2612",
+            "configMediaId": "22f3fe5b03dc48f69a072d9369aa3791",
+            "configMediaThumbId": "22f3fe5b03dc48f69a072d9369aa3791",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/b9/db/11/1724148870/option-nolte-glasart-kag.jpg?ts=1724148870",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/b9/db/11/1724148870/option-nolte-glasart-kag_400x400.jpg?ts=1724148870"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb2293728d9eaac3e2dc39bfa8",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.931000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb2293728d9eaac3e2dc39bfa8",
+            "configGroupId": "01929eeb2283739789ec6a6476234b9c",
+            "label": "Klarglas mit Facette",
+            "labelId": "KFG",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2613,2613",
+            "configMediaId": "3dd1b19620c04dac9f40fc048fda244e",
+            "configMediaThumbId": "3dd1b19620c04dac9f40fc048fda244e",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/34/af/01/1724148870/option-nolte-glasart-kfg.jpg?ts=1724148870",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/34/af/01/1724148870/option-nolte-glasart-kfg_400x400.jpg?ts=1724148870"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb229670698e310715f9ce42d7",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.934000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb229670698e310715f9ce42d7",
+            "configGroupId": "01929eeb2283739789ec6a6476234b9c",
+            "label": "Parsolglas Bronze",
+            "labelId": "DNPGB",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2620,2620",
+            "configMediaId": "34cd8138cdd1484eb7f342491f01aa4d",
+            "configMediaThumbId": "34cd8138cdd1484eb7f342491f01aa4d",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/2e/d7/fa/1724148870/option-nolte-glasrahmen-dn-pgb.jpg?ts=1724148870",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/2e/d7/fa/1724148870/option-nolte-glasrahmen-dn-pgb_400x400.jpg?ts=1724148871"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb229c734787d31ca63a692349",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.940000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb229c734787d31ca63a692349",
+            "configGroupId": "01929eeb2283739789ec6a6476234b9c",
+            "label": "Parsolglas Bronze",
+            "labelId": "DRPGB",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2622,2622",
+            "configMediaId": "a64cc926ee014d45917f072d0f1028e2",
+            "configMediaThumbId": "a64cc926ee014d45917f072d0f1028e2",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/27/1e/5f/1724148870/option-nolte-glasrahmen-dr-pgb.jpg?ts=1724148870",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/27/1e/5f/1724148870/option-nolte-glasrahmen-dr-pgb_400x400.jpg?ts=1724148871"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb22a670a38ecf20f53a6df433",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.950000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb22a670a38ecf20f53a6df433",
+            "configGroupId": "01929eeb2283739789ec6a6476234b9c",
+            "label": "Parsolglas Grau",
+            "labelId": "DEPGG",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2616,2616",
+            "configMediaId": "63a3729b6c8c4f3cb10e422f163fa79f",
+            "configMediaThumbId": "63a3729b6c8c4f3cb10e422f163fa79f",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/1e/f6/de/1724148870/option-nolte-glasrahmen-de-pgg.jpg?ts=1724148870",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/1e/f6/de/1724148870/option-nolte-glasrahmen-de-pgg_400x400.jpg?ts=1724148870"
+          }
+        ]
+      },
+      {
+        "extensions": {
+          "foreignKeys": {
+            "extensions": [],
+            "apiAlias": "kit_config_group_foreign_keys_extension"
+          }
+        },
+        "_uniqueIdentifier": "01929eeb22b070a9a60ef34ab93f4fdb",
+        "versionId": null,
+        "translated": [],
+        "createdAt": {
+          "date": "2024-10-18 09:17:42.961000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "updatedAt": null,
+        "_entityName": "array-entity",
+        "uuid": "01929eeb22b070a9a60ef34ab93f4fdb",
+        "configProfileId": "01929eeb222f73ce81482e675e04754e",
+        "customField": "optionsgruppe_griff",
+        "label": "Griff",
+        "type": 1,
+        "position": 6,
+        "required": 1,
+        "pricerule": "$optionspreis*$ausstattung_griff",
+        "description": null,
+        "configProfile": null,
+        "options": [
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb22b470b19f4a242e33a50f0f",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.964000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb22b470b19f4a242e33a50f0f",
+            "configGroupId": "01929eeb22b070a9a60ef34ab93f4fdb",
+            "label": "Griffmulde Arcticweiß",
+            "labelId": "598",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": "[{\"cf\":\"optionsgruppe_griffposition\",\"id\":\"H\"}]",
+            "importedMediaIds": "2378,2378",
+            "configMediaId": "5adeef920ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adeef920ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/e2/23/83/1713872610/option-nolte-griff-598.jpg?ts=1723808376",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/e2/23/83/1713872610/option-nolte-griff-598_400x400.jpg?ts=1723808380"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb22b7700c8623fc36c9bfb94f",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.967000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb22b7700c8623fc36c9bfb94f",
+            "configGroupId": "01929eeb22b070a9a60ef34ab93f4fdb",
+            "label": "Griffmulde Edelstahl-Optik",
+            "labelId": "595",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": "[{\"cf\":\"optionsgruppe_griffposition\",\"id\":\"H\"}]",
+            "importedMediaIds": "2377,2377",
+            "configMediaId": "5adeeeee0ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adeeeee0ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/ee/af/e9/1713872610/option-nolte-griff-595.jpg?ts=1723808375",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/ee/af/e9/1713872610/option-nolte-griff-595_400x400.jpg?ts=1723808379"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb22ba72f9a3626012aef11e41",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.970000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb22ba72f9a3626012aef11e41",
+            "configGroupId": "01929eeb22b070a9a60ef34ab93f4fdb",
+            "label": "Griffmulde Manganbronze",
+            "labelId": "791",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": "[{\"cf\":\"optionsgruppe_griffposition\",\"id\":\"H\"}]",
+            "importedMediaIds": "2380,2380",
+            "configMediaId": "5adef1010ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adef1010ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/46/f4/0f/1723808369/option-nolte-griff-791.jpg?ts=1723808369",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/46/f4/0f/1723808369/option-nolte-griff-791_400x400.jpg?ts=1723808379"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb22bd716e960e9e014bb390ec",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.973000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb22bd716e960e9e014bb390ec",
+            "configGroupId": "01929eeb22b070a9a60ef34ab93f4fdb",
+            "label": "Griffmulde Quarzgrau",
+            "labelId": "593",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": "[{\"cf\":\"optionsgruppe_griffposition\",\"id\":\"H\"}]",
+            "importedMediaIds": "2376,2376",
+            "configMediaId": "5adeee430ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adeee430ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/e8/36/11/1713872610/option-nolte-griff-593.jpg?ts=1723808376",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/e8/36/11/1713872610/option-nolte-griff-593_400x400.jpg?ts=1723808379"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb22c070e182cb6ca93e06e215",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.976000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb22c070e182cb6ca93e06e215",
+            "configGroupId": "01929eeb22b070a9a60ef34ab93f4fdb",
+            "label": "Griffmulde Schwarz",
+            "labelId": "591",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": "[{\"cf\":\"optionsgruppe_griffposition\",\"id\":\"H\"}]",
+            "importedMediaIds": "2375,2375",
+            "configMediaId": "5adeed610ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adeed610ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/b6/eb/94/1713872610/option-nolte-griff-591.jpg?ts=1723808376",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/b6/eb/94/1713872610/option-nolte-griff-591_400x400.jpg?ts=1723808380"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb22c37302b209a0e2d0b1945c",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.980000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb22c37302b209a0e2d0b1945c",
+            "configGroupId": "01929eeb22b070a9a60ef34ab93f4fdb",
+            "label": "Griffmulde Weiß",
+            "labelId": "790",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": "[{\"cf\":\"optionsgruppe_griffposition\",\"id\":\"H\"}]",
+            "importedMediaIds": "2379,2379",
+            "configMediaId": "5adef0630ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adef0630ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/24/5d/21/1713872610/option-nolte-griff-790.jpg?ts=1723808375",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/24/5d/21/1713872610/option-nolte-griff-790_400x400.jpg?ts=1723808379"
+          }
+        ]
+      },
+      {
+        "extensions": {
+          "foreignKeys": {
+            "extensions": [],
+            "apiAlias": "kit_config_group_foreign_keys_extension"
+          }
+        },
+        "_uniqueIdentifier": "01929eeb22c471408308272358f77c8e",
+        "versionId": null,
+        "translated": [],
+        "createdAt": {
+          "date": "2024-10-18 09:17:42.980000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "updatedAt": null,
+        "_entityName": "array-entity",
+        "uuid": "01929eeb22c471408308272358f77c8e",
+        "configProfileId": "01929eeb222f73ce81482e675e04754e",
+        "customField": "optionsgruppe_griffposition",
+        "label": "Griffposition",
+        "type": 1,
+        "position": 7,
+        "required": 1,
+        "pricerule": null,
+        "description": null,
+        "configProfile": null,
+        "options": [
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb22c7715ca38a8bbdb243448f",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.984000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb22c7715ca38a8bbdb243448f",
+            "configGroupId": "01929eeb22c471408308272358f77c8e",
+            "label": "Grifflos MatrixArt",
+            "labelId": "H",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2601,2601",
+            "configMediaId": "5ae09f5a0ac611ef870a52540083bca3",
+            "configMediaThumbId": "5ae09f5a0ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/31/d3/01/1714113731/option-griffposition-7.jpg?ts=1724354087",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/31/d3/01/1714113731/option-griffposition-7_400x400.jpg?ts=1724354102"
+          }
+        ]
+      },
+      {
+        "extensions": {
+          "foreignKeys": {
+            "extensions": [],
+            "apiAlias": "kit_config_group_foreign_keys_extension"
+          }
+        },
+        "_uniqueIdentifier": "01929eeb22c872f29352a4f0f63a2dc5",
+        "versionId": null,
+        "translated": [],
+        "createdAt": {
+          "date": "2024-10-18 09:17:42.984000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "updatedAt": null,
+        "_entityName": "array-entity",
+        "uuid": "01929eeb22c872f29352a4f0f63a2dc5",
+        "configProfileId": "01929eeb222f73ce81482e675e04754e",
+        "customField": "optionsgruppe_tueranschlag",
+        "label": "Türanschlag",
+        "type": 1,
+        "position": 8,
+        "required": 1,
+        "pricerule": null,
+        "description": null,
+        "configProfile": null,
+        "options": [
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb22cb71b29282f6b7ede9f2fe",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.987000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb22cb71b29282f6b7ede9f2fe",
+            "configGroupId": "01929eeb22c872f29352a4f0f63a2dc5",
+            "label": "Links",
+            "labelId": "L",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2555,2555",
+            "configMediaId": "5adf63b90ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adf63b90ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/1e/ed/08/1714075561/option-tueranschlag-links.jpg?ts=1724354086",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/1e/ed/08/1714075561/option-tueranschlag-links_400x400.jpg?ts=1724354102"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb22cf7097ab0d8699a070012a",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.991000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb22cf7097ab0d8699a070012a",
+            "configGroupId": "01929eeb22c872f29352a4f0f63a2dc5",
+            "label": "Rechts",
+            "labelId": "R",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2556,2556",
+            "configMediaId": "5adf64750ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adf64750ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/f7/6d/7d/1714075561/option-tueranschlag-rechts.jpg?ts=1724354086",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/f7/6d/7d/1714075561/option-tueranschlag-rechts_400x400.jpg?ts=1724354102"
+          }
+        ]
+      },
+      {
+        "extensions": {
+          "foreignKeys": {
+            "extensions": [],
+            "apiAlias": "kit_config_group_foreign_keys_extension"
+          }
+        },
+        "_uniqueIdentifier": "01929eeb22cf7097ab0d8699a09f833c",
+        "versionId": null,
+        "translated": [],
+        "createdAt": {
+          "date": "2024-10-18 09:17:42.992000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "updatedAt": null,
+        "_entityName": "array-entity",
+        "uuid": "01929eeb22cf7097ab0d8699a09f833c",
+        "configProfileId": "01929eeb222f73ce81482e675e04754e",
+        "customField": "optionsgruppe_auszug",
+        "label": "Auszug",
+        "type": 1,
+        "position": 9,
+        "required": 1,
+        "pricerule": "$optionspreis*$ausstattung_auszug",
+        "description": null,
+        "configProfile": null,
+        "options": [
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb22d672fe9164e13c0b4230f4",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.998000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb22d672fe9164e13c0b4230f4",
+            "configGroupId": "01929eeb22cf7097ab0d8699a09f833c",
+            "label": "PremiumLINE Box",
+            "labelId": "PLB",
+            "price": 44,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2094,2094",
+            "configMediaId": "5ade2a270ac611ef870a52540083bca3",
+            "configMediaThumbId": "5ade2a270ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/24/f8/7f/1724095522/option-nolte-auszug-plb.jpg?ts=1724095522",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/24/f8/7f/1724095522/option-nolte-auszug-plb_400x400.jpg?ts=1724095526"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb22da715c9f45bfdac3c2ea87",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:43.002000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb22da715c9f45bfdac3c2ea87",
+            "configGroupId": "01929eeb22cf7097ab0d8699a09f833c",
+            "label": "PremiumLINE Glas",
+            "labelId": "PLG",
+            "price": 80,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2096,2096",
+            "configMediaId": "5ade2b670ac611ef870a52540083bca3",
+            "configMediaThumbId": "5ade2b670ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/14/fd/ba/1724095522/option-nolte-auszug-plg.jpg?ts=1724095522",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/14/fd/ba/1724095522/option-nolte-auszug-plg_400x400.jpg?ts=1724095526"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb22d371e3a8f519f46a685efa",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:42.995000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb22d371e3a8f519f46a685efa",
+            "configGroupId": "01929eeb22cf7097ab0d8699a09f833c",
+            "label": "PremiumLINE Reling",
+            "labelId": "PLE",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2095,2095",
+            "configMediaId": "5ade2ac90ac611ef870a52540083bca3",
+            "configMediaThumbId": "5ade2ac90ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/8e/23/6a/1724095522/option-nolte-auszug-ple.jpg?ts=1724095522",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/8e/23/6a/1724095522/option-nolte-auszug-ple_400x400.jpg?ts=1724095526"
+          }
+        ]
+      },
+      {
+        "extensions": {
+          "foreignKeys": {
+            "extensions": [],
+            "apiAlias": "kit_config_group_foreign_keys_extension"
+          }
+        },
+        "_uniqueIdentifier": "01929eeb22da715c9f45bfdac3cab14b",
+        "versionId": null,
+        "translated": [],
+        "createdAt": {
+          "date": "2024-10-18 09:17:43.003000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "updatedAt": null,
+        "_entityName": "array-entity",
+        "uuid": "01929eeb22da715c9f45bfdac3cab14b",
+        "configProfileId": "01929eeb222f73ce81482e675e04754e",
+        "customField": "optionsgruppe_geraetebezeichnung",
+        "label": "Gerätebezeichnung",
+        "type": 3,
+        "position": 10,
+        "required": 1,
+        "pricerule": null,
+        "description": "Bitte tragen Sie hier Ihre Einbaugeräte für den Schrank ein",
+        "configProfile": null,
+        "options": [
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb22dc724face8d0fb38dbb0fe",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:43.004000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb22dc724face8d0fb38dbb0fe",
+            "configGroupId": "01929eeb22da715c9f45bfdac3cab14b",
+            "label": "Gerätebezeichnung",
+            "labelId": "GB",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": null,
+            "configMediaId": null,
+            "configMediaThumbId": null,
+            "configGroup": null,
+            "configMedia": null,
+            "configMediaThumb": null
+          }
+        ]
+      },
+      {
+        "extensions": {
+          "foreignKeys": {
+            "extensions": [],
+            "apiAlias": "kit_config_group_foreign_keys_extension"
+          }
+        },
+        "_uniqueIdentifier": "01929eeb22dd72188ef3de32b48e6ae1",
+        "versionId": null,
+        "translated": [],
+        "createdAt": {
+          "date": "2024-10-18 09:17:43.005000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "updatedAt": null,
+        "_entityName": "array-entity",
+        "uuid": "01929eeb22dd72188ef3de32b48e6ae1",
+        "configProfileId": "01929eeb222f73ce81482e675e04754e",
+        "customField": "optionsgruppe_fusshoehe",
+        "label": "Fußhöhe",
+        "type": 1,
+        "position": 11,
+        "required": 1,
+        "pricerule": null,
+        "description": null,
+        "configProfile": null,
+        "options": [
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb22ec7367b0f3615263cc387f",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:43.021000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb22ec7367b0f3615263cc387f",
+            "configGroupId": "01929eeb22dd72188ef3de32b48e6ae1",
+            "label": "12 cm",
+            "labelId": "12",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "1012,1012",
+            "configMediaId": "5adb64c60ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adb64c60ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/72/fa/1e/1714075561/option-fusshoehe-4.jpg?ts=1724354086",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/72/fa/1e/1714075561/option-fusshoehe-4_400x400.jpg?ts=1724354102"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb22f0736c8183891415348908",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:43.024000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb22f0736c8183891415348908",
+            "configGroupId": "01929eeb22dd72188ef3de32b48e6ae1",
+            "label": "15 cm",
+            "labelId": "15",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "1013,1013",
+            "configMediaId": "5adb655d0ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adb655d0ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/19/13/37/1714075561/option-fusshoehe-5.jpg?ts=1724354087",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/19/13/37/1714075561/option-fusshoehe-5_400x400.jpg?ts=1724354103"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb22f3729394aa0fc34a376d7c",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:43.028000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb22f3729394aa0fc34a376d7c",
+            "configGroupId": "01929eeb22dd72188ef3de32b48e6ae1",
+            "label": "17 cm",
+            "labelId": "17",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "1014,1014",
+            "configMediaId": "5adb65f40ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adb65f40ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/16/49/4f/1714075561/option-fusshoehe-6.jpg?ts=1724354086",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/16/49/4f/1714075561/option-fusshoehe-6_400x400.jpg?ts=1724354102"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb22f770d9835f13754bb99da5",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:43.031000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb22f770d9835f13754bb99da5",
+            "configGroupId": "01929eeb22dd72188ef3de32b48e6ae1",
+            "label": "20 cm",
+            "labelId": "20",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "2557,2557",
+            "configMediaId": "5adf65220ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adf65220ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/f8/33/03/1714075561/option-fusshoehe-7.jpg?ts=1724354086",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/f8/33/03/1714075561/option-fusshoehe-7_400x400.jpg?ts=1724354101"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb22e171fa980bc2b9f136f937",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:43.009000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb22e171fa980bc2b9f136f937",
+            "configGroupId": "01929eeb22dd72188ef3de32b48e6ae1",
+            "label": "5 cm",
+            "labelId": "5",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "1009,1009",
+            "configMediaId": "5adb62cc0ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adb62cc0ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/b2/27/bd/1714075561/option-fusshoehe-1.jpg?ts=1724354086",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/b2/27/bd/1714075561/option-fusshoehe-1_400x400.jpg?ts=1724354102"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb22e5732698ab1fb6d2f1ae8e",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:43.014000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb22e5732698ab1fb6d2f1ae8e",
+            "configGroupId": "01929eeb22dd72188ef3de32b48e6ae1",
+            "label": "7 cm",
+            "labelId": "7",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "1010,1010",
+            "configMediaId": "5adb63840ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adb63840ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/59/5c/d0/1714075560/option-fusshoehe-2.jpg?ts=1724354087",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/59/5c/d0/1714075560/option-fusshoehe-2_400x400.jpg?ts=1724354103"
+          },
+          {
+            "extensions": {
+              "foreignKeys": {
+                "extensions": [],
+                "apiAlias": "kit_config_option_foreign_keys_extension"
+              }
+            },
+            "_uniqueIdentifier": "01929eeb22e972e29c32918dd8c24538",
+            "versionId": null,
+            "translated": [],
+            "createdAt": {
+              "date": "2024-10-18 09:17:43.017000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+            },
+            "updatedAt": null,
+            "_entityName": "array-entity",
+            "uuid": "01929eeb22e972e29c32918dd8c24538",
+            "configGroupId": "01929eeb22dd72188ef3de32b48e6ae1",
+            "label": "9 cm",
+            "labelId": "9",
+            "price": null,
+            "unit": null,
+            "regex": null,
+            "description": null,
+            "relation": null,
+            "importedMediaIds": "1011,1011",
+            "configMediaId": "5adb642c0ac611ef870a52540083bca3",
+            "configMediaThumbId": "5adb642c0ac611ef870a52540083bca3",
+            "configGroup": null,
+            "configMedia": "https://kitchenz-shopware6.ddev.site/media/67/27/8e/1714075561/option-fusshoehe-3.jpg?ts=1724354086",
+            "configMediaThumb": "https://kitchenz-shopware6.ddev.site/thumbnail/67/27/8e/1714075561/option-fusshoehe-3_400x400.jpg?ts=1724354102"
+          }
+        ]
+      },
+      {
+        "extensions": {
+          "foreignKeys": {
+            "extensions": [],
+            "apiAlias": "kit_config_group_foreign_keys_extension"
+          }
+        },
+        "_uniqueIdentifier": "01929eeb22f770d9835f13754c244723",
+        "versionId": null,
+        "translated": [],
+        "createdAt": {
+          "date": "2024-10-18 09:17:43.031000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+        },
+        "updatedAt": null,
+        "_entityName": "array-entity",
+        "uuid": "01929eeb22f770d9835f13754c244723",
+        "configProfileId": "01929eeb222f73ce81482e675e04754e",
+        "customField": "optionsgruppe_optionale_ausstattung",
+        "label": "Optionale Ausstattung",
+        "type": 4,
+        "position": 12,
+        "required": 0,
+        "pricerule": "$optionspreis",
+        "description": null,
+        "configProfile": null
+      }
+    ],
+    "profil": "NK-P-MA-M15",
+    "price": 230
+  }
+}
