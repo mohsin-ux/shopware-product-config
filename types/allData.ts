@@ -8,6 +8,7 @@ export type OptionsData = {
   labelId: string;
 }
 export type AllData = {
+  isImageVisible: Ref<boolean>;
   filteredOptions: Ref<string[]>;
   filteredProfiles: Ref<string[]>;
   type: ComputedRef<number>;
@@ -24,4 +25,5 @@ export type AllData = {
   setCurrentGroup: Function;
   setCurrentProfile: Function;
   setFilteredValues: Function;
+  setImageVisible: Function;
 };

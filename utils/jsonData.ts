@@ -1,10 +1,10 @@
-export const apiData = {
-  "NK-P-MA-L23": {
+export default {
+    "NK-P-MA-L23": {
     "groups": [
       {
         "extensions": {
           "foreignKeys": {
-            "extensions": [],
+             "extensions": [],
             "apiAlias": "kit_config_group_foreign_keys_extension"
           }
         },
@@ -183,7 +183,7 @@ export const apiData = {
         "label": "Korpus",
         "type": 1,
         "position": 3,
-        "required": 1,
+        "required": 0,
         "pricerule": null,
         "description": null,
         "configProfile": null,
@@ -1329,7 +1329,7 @@ export const apiData = {
         "label": "Griff",
         "type": 1,
         "position": 6,
-        "required": 1,
+        "required": 0,
         "pricerule": "$optionspreis*$ausstattung_griff",
         "description": null,
         "configProfile": null,
@@ -1845,7 +1845,7 @@ export const apiData = {
         "label": "Gerätebezeichnung",
         "type": 3,
         "position": 10,
-        "required": 1,
+        "required": 0,
         "pricerule": null,
         "description": null,
         "configProfile": null,
@@ -2920,7 +2920,7 @@ export const apiData = {
         "label": "Glasrahmen",
         "type": 1,
         "position": 4,
-        "required": 1,
+        "required": 0,
         "pricerule": null,
         "description": null,
         "configProfile": null,
@@ -3640,7 +3640,7 @@ export const apiData = {
         "label": "Griff",
         "type": 1,
         "position": 6,
-        "required": 1,
+        "required": 0,
         "pricerule": "$optionspreis*$ausstattung_griff",
         "description": null,
         "configProfile": null,
@@ -4156,7 +4156,7 @@ export const apiData = {
         "label": "Gerätebezeichnung",
         "type": 3,
         "position": 10,
-        "required": 1,
+        "required": 0,
         "pricerule": null,
         "description": "Bitte tragen Sie hier Ihre Einbaugeräte für den Schrank ein",
         "configProfile": null,
@@ -4219,7 +4219,7 @@ export const apiData = {
         "label": "Fußhöhe",
         "type": 1,
         "position": 11,
-        "required": 1,
+        "required": 0,
         "pricerule": null,
         "description": null,
         "configProfile": null,
@@ -4480,7 +4480,7 @@ export const apiData = {
         "label": "Optionale Ausstattung",
         "type": 4,
         "position": 12,
-        "required": 0,
+        "required": 1,
         "pricerule": "$optionspreis",
         "description": null,
         "configProfile": null

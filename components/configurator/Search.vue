@@ -13,6 +13,7 @@ const {
 
 
 const filteredOptions = computed<null | string[]>(() => {
+  console.log(inputValue.value);
   const valueToSearch = inputValue.value.toLowerCase();
   if (selectedGroupIndex.value === 0) return allProfilesLabels.value;
   return optionLabels.value.filter((option: string) =>
@@ -20,7 +21,8 @@ const filteredOptions = computed<null | string[]>(() => {
   );
 });
 
-const filteredProfiles = computed<null | string[]>(() => {
+const filteredProfiles = computed<string[]>(() => {
+  console.log(inputValue.value);
   const valueToSearch = inputValue.value.toLowerCase();
   if (selectedGroupIndex.value !== 0) return optionLabels.value;
   return allProfilesLabels.value.filter((profile: string) =>
@@ -43,6 +45,5 @@ function handleInputEvent() {
       @input="handleInputEvent"
     />
     <IconsSearchBlack class="absolute right-3 top-2" />
-    <p>{{ inputValue }}</p>
   </div>
 </template>

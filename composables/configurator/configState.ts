@@ -11,6 +11,9 @@ export const useConfigState = async () => {
   const filteredOptions = ref<string[]>(optionLabels.value);
   const filteredProfiles = ref<string[]>(allProfilesLabels.value);
   const componentToShow = computed(() => selectedGroupIndex.value !== 0);
+  const inputValue = ref<string>("");
+  const isMenuVisible = ref<boolean>(false);
+  const isImageVisible = ref<boolean>(false);
 
   const nextGroupLabel = computed<string>(
     () => groupsData.value[selectedGroupIndex.value + 1].groupLabel
@@ -37,10 +40,14 @@ export const useConfigState = async () => {
   }
   function setCurrentGroup(index: number) {
     currentGroupIndex.value = index;
-    selectedGroupIndex.value = index                  ;
+    selectedGroupIndex.value = index;
     setSelectedGroupLabel(selectedGroupIndex.value);
     setSelectedGroupIndex(selectedGroupIndex.value);
     filteredOptions.value = optionLabels.value;
+  }
+  function setImageVisible() {
+    console.log(`hello it is the final testing ${isImageVisible.value}`);
+    isImageVisible.value = !isImageVisible.value;
   }
 
   function setSelectedLabel(label: string) {
@@ -59,11 +66,15 @@ export const useConfigState = async () => {
     filteredOptions.value = options;
   }
 
+
   return {
+    isImageVisible,
+    isMenuVisible,
+    inputValue,
     filteredOptions,
     filteredProfiles,
     type,
-    price,
+    price,  
     componentToShow,
     selectedLabel,
     currentProfileIndex,
@@ -77,5 +88,6 @@ export const useConfigState = async () => {
     setCurrentGroup,
     setCurrentProfile,
     setFilteredValues,
+    setImageVisible
   };
 };

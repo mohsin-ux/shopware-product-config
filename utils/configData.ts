@@ -1,15 +1,14 @@
-import apiData from "~/static/kitchenz-response";
+import apiData from "~/utils/jsonData";
 
 export const useConfigData = async (
   currentProfileIndex: Ref<number>,
   currentGroupIndex: Ref<number>
 ) => {
-  const url =
-    "https://shopware.grandmarkt.de/store-api/product-configurator/get-configuration/069be5c6d51244ee8d39a88f216f5978";
 
-  const apiAllData = apiData;
+  // const apiAllData = apiData;
+  const apiAllData = apiData
   console.log(apiData);
-
+  
   const parsedData: any = Object.values(apiAllData);
   console.log(parsedData);
 
