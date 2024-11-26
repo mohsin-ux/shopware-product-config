@@ -34,9 +34,9 @@ function handleSearchClick() {
 
 <template>
   <div
-    class="lg:w-[636px] md:w-[420px] h-screen flex max-[391px]:flex-col max-[391px]:items-center max-[391px]:justify-start  items-start justify-center md:justify-start flex-wrap gap-3 overflow-y-auto"
+    class="lg:w-[636px] md:w-[420px] h-full flex max-[391px]:flex-col max-[391px]:items-center max-[391px]:justify-start items-start justify-center md:justify-start flex-wrap gap-3 overflow-y-auto"
   >
-    <div
+    <div  
       v-for="(label, index) in filteredProfiles"
       class="w-[165px] sm:w-[204px] h-[204px] border flex mt-2 relative hover:border-red hover:border-4 hover:p-1 transition-all cursor-pointer"
       :class="{ 'border-red border-4 p-1': selectedProfileLabel === label }"

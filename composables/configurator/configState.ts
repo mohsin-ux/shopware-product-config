@@ -46,7 +46,7 @@ export const useConfigState = async () => {
     filteredOptions.value = optionLabels.value;
   }
   function setImageVisible() {
-    console.log(`hello it is the final testing ${isImageVisible.value}`);
+    console.log(`hello it is the final testing ${isImageVisible.value}`); 
     isImageVisible.value = !isImageVisible.value;
   }
 

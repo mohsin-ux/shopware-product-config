@@ -8,6 +8,10 @@ function triggerFunction() {
   setCurrentOption(0, userInput.value);
 }
 function handleInput() {
+  if(userInput.value.length !== 0){
+    setCurrentOption(0, userInput.value);
+    return
+  } 
   if (typingTimer) clearTimeout(typingTimer);
   typingTimer = setTimeout(() => {
     triggerFunction();

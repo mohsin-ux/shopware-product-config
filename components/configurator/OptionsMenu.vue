@@ -36,7 +36,7 @@ function handleSearchClick() {
 
 <template>
   <div
-    class="lg:w-[636px] md:w-[450px] sm:h-full h-[460px] flex justify-center md:justify-start flex-wrap gap-3 overflow-y-auto"
+    class="lg:w-[636px] md:w-[450px] sm:h-full h-screen flex justify-center md:justify-start flex-wrap gap-3 max-[391px]:flex-col max-[391px]:items-center max-[391px]:justify-start overflow-y-auto"
   >
     <div
       v-for="(label, index) in filteredOptions"
