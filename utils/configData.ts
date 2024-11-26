@@ -7,7 +7,7 @@ export const useConfigData = async (
 
   // const apiAllData = apiData;
   const apiAllData = apiData
-  console.log(apiData);
+  console.log(apiAllData);
   
   const parsedData: any = Object.values(apiAllData);
   console.log(parsedData);

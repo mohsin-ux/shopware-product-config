@@ -17,7 +17,7 @@ provide(PROVIDED_KEY, allData);
 
 <template>
   <div
-    class="sm:flex h-screen sm:max-h-[672px] max-sm:w-screen relative overflow-y-auto overflow-x-hidden"
+    class="sm:flex h-screen sm:max-h-[671px] max-sm:w-screen relative overflow-y-hidden overflow-x-hidden"
   >
     <ConfiguratorShowImage v-if="allData.isImageVisible.value" />
 
@@ -36,11 +36,13 @@ provide(PROVIDED_KEY, allData);
       <ConfiguratorProfileMenu
         v-if="!allData.componentToShow.value && allData.type.value === 1"
       />
-      <ConfiguratorOptionsMenu v-else />
+      <ConfiguratorOptionsMenu
+        v-if="allData.componentToShow.value && allData.type.value === 1"
+      />
       <ConfiguratorDimensionsMenu v-show="allData.type.value === 2" />
       <ConfiguratorDescription v-show="allData.type.value === 3" />
     </div>
-    <ConfiguratorSidebar />
+    <ConfiguratorSidebar :class="{ 'max-sm:hidden': allData.isImageVisible.value }" />
   </div>
 </template>
 <style scoped>

@@ -14,21 +14,17 @@ const {
   setCurrentGroup,
 }: any = inject("allData");
 
-function selectedGroup(index: number, label: string) {
-  console.log("sidebar menu");
+function handleClick(index: number, label: string) {
   if (index === 0) {
-    console.log("hello 1st index");
     setCurrentGroup(index);
     emit("showMenu");
-  } else if (selectedLabel.value[index]) {
-    console.log("selected options of that group");
+  } else if (selectedLabel.value[index] || selectedLabel.value[index - 1]) {
     setCurrentGroup(index);
     emit("showMenu");
   } else if (
-    selectedLabel.value[index - 2] &&
-    groupsData.value[index - 1].required === 0
+    groupsData.value[index - 1].required === 0 &&
+    selectedLabel.value[index - 2]
   ) {
-    console.log("previous required is zero ");
     setCurrentGroup(index);
     emit("showMenu");
   }
@@ -36,10 +32,8 @@ function selectedGroup(index: number, label: string) {
 </script>
 
 <template>
-  <!-- <div class="w-full  max-sm:opacity-50 relative" :class="{ 'max-sm:bg-transparent': !isMenuVisible }"> -->
-  <!-- ref="sideBarMenu" -->
   <div
-    class="w-full z-0 relative transition-all p-4 max-sm:rounded-t-2xl"
+    class="w-full sm:h-125 z-0 transition-all p-4 max-sm:rounded-t-2xl sm:overflow-y-auto sm:overflow-x-hidden relative"
     :class="{ 'hidden sm:block': !isMenuVisible }"
   >
     <div
@@ -49,29 +43,29 @@ function selectedGroup(index: number, label: string) {
       <span class="w-10 h-1 bg-black rounded items-center sm:hidden"></span>
     </div>
 
-    <div class="sm:h-125 overflow-y-auto overflow-x-hidden">
+    <!-- <div cla"> -->
       <div
         v-for="(groupData, index) in groupsData"
         class="py-2 border-b border-[#DEDAD4] flex items-center cursor-pointer"
       >
         <div
-          @click="selectedGroup(index, groupData.groupLabel.value)"
+          @click="handleClick(index, groupData.groupLabel.value)"
           class="w-full bg-none text-start flex items-center gap-1"
           :class="{ 'font-bold': index === selectedGroupIndex }"
         >
-          <span
-            class="w-3 h-3 rotate-45 absolute -left-1.5 bg-white"
-            :class="{ 'hidden': index !== selectedGroupIndex }"
-          ></span>
           <div class="flex items-center gap-2">
+            <span
+              class="w-3 h-3 rotate-45 absolute -left-1.5 bg-white"
+              :class="{ hidden: index !== selectedGroupIndex }"
+            ></span>
             <p>{{ index + 1 }}.</p>
-            <p class="w-24 hyphens-auto break-words" lang="de">
+            <p class="w-24 hyphens-auto break-words text-[14px]" lang="de">
               {{ groupData.groupLabel }}
             </p>
           </div>
 
           <div
-            class="text-red flex items-center gap-1 hyphens-auto break-words"
+            class="text-red text-[14px] flex items-center gap-1 hyphens-auto break-words"
             v-if="selectedLabel[index]"
           >
             <IconsRedTick />
@@ -79,7 +73,6 @@ function selectedGroup(index: number, label: string) {
           </div>
         </div>
       </div>
-    </div>
+    <!-- </div> -->
   </div>
-  <!-- </div> -->
 </template>

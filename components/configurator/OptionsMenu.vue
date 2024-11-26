@@ -36,12 +36,12 @@ function handleSearchClick() {
 
 <template>
   <div
-    class="lg:w-[636px] md:w-[450px] h-screen flex justify-center md:justify-start flex-wrap gap-3 overflow-y-auto"
+    class="lg:w-[636px] md:w-[450px] sm:h-full h-[460px] flex justify-center md:justify-start flex-wrap gap-3 overflow-y-auto"
   >
     <div
       v-for="(label, index) in filteredOptions"
       :key="index"
-      class="w-[165px] sm:w-[204px] h-[215px] border flex flex-col items-center gap-2 py-3 px-2 mt-2 relative hover:border-red hover:border-4 hover:p-1 transition-all cursor-pointer"
+      class="w-[165px] sm:w-[204px] h-[215px] border flex flex-col items-center gap-2 py-3 px-2 mt-2 relative hover:border-red hover:border-4 hover:p-1 transition-all cursor-pointer overflow-hidden"
       :class="{
         'border-red border-4 p-1': selectedOptionLabel === label,
       }"
@@ -50,7 +50,7 @@ function handleSearchClick() {
       <img
         class="object-cover w-[140px] h-[140px]"
         src="~/assets/images/optionsImg.png"
-        alt="something goes wrong"
+        alt="something goes wrong"    
       />
       <div
         ref="search"

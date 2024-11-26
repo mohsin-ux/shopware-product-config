@@ -2,7 +2,6 @@
 // import { useFetchData } from "~/composables/configurator/fetchData";
 import { PROVIDED_KEY } from "~/constants";
 import SideBarMenu from "./SideBarMenu.vue";
-// import SideBarMenu from "./SideBarMenu.vue";
 const { kitchenzModalController }: any = inject("close");
 const isMenuVisible = ref<boolean>(false);
 const selectedLabelsArray = computed(() => Object.keys(selectedLabel.value));
@@ -15,11 +14,8 @@ const {
   selectedGroupIndex,
   setCurrentGroup,
 }: any = inject(PROVIDED_KEY);
-const url =
-  "https://kitchenz-shopware6.ddev.site/store-api/product-configurator/full-price-calculate";
 
 function toggleMenuVisible() {
-  console.log('hello world')
   isMenuVisible.value = !isMenuVisible.value;
 }
 
@@ -28,30 +24,29 @@ function nextGroup() {
     selectedLabel.value[selectedGroupIndex.value] &&
     selectedLabelsArray.value.length - 1 < groupsData.value.length - 1
   ) {
-    selectedGroupIndex.value++;
-    setCurrentGroup(selectedGroupIndex.value);
+    setCurrentGroup(selectedGroupIndex.value + 1);
   } else if (
     selectedLabelsArray.value.length - 1 === groupsData.value.length - 1 &&
     selectedGroupIndex.value === groupsData.value.length - 1
   ) {
     kitchenzModalController.close();
+  } else if (
+    selectedLabel.value[selectedGroupIndex.value - 1] &&
+    groupsData.value[selectedGroupIndex.value].required === 0
+  ) {
+    setCurrentGroup(selectedGroupIndex.value + 1);
   }
 }
 function previousGroup() {
   selectedGroupIndex.value--;
   setCurrentGroup(selectedGroupIndex.value);
 }
-// const sideBarMenu = useTemplateRef("sideBarMenu");
-
-// onClickOutside(sideBarMenu, (event) => {
-//   toggleMenuVisible(event);
-// });
 </script>
 
 <template>
-  <div class="h-full relative bg-[#EEEDE8]">
+  <div class="max-sm:w-full h-content relative bg-[#EEEDE8] max-sm:sticky bottom-0">
     <div
-      class="sm:flex sm:flex-col sm:justify-between bg-[#EEEDE8] -mt-4 sm:w-[310px] sm:h-full w-full box-border max-sm:fixed bottom-0"
+      class="sm:flex sm:flex-col bg-[#EEEDE8] sm:justify-between -mt-4 sm:w-[310px] sm:h-full w-full box-border max-sm:fixed bottom-0"  
     >
       <SideBarMenu
         :isMenuVisible="isMenuVisible"
@@ -61,7 +56,6 @@ function previousGroup() {
       <div class="w-full sm:p-4 md-w-[310px] flex flex-col items-center gap-2">
         <div class="w-full">
           <div
-          
             class="w-full py-3 sm:p-2 sm:bg-white bg-[#EEEDE8] flex flex-col gap-2 justify-center items-center"
             :class="{
               'rounded-none bg-white ': isMenuVisible,
@@ -69,7 +63,7 @@ function previousGroup() {
             }"
           >
             <div
-              class="p-2 w-full flex justify-center sm:hidden toggle"
+              class="p-2 w-full flex justify-center sm:hidden"
               @click="toggleMenuVisible"
               :class="{ hidden: isMenuVisible }"
             >
