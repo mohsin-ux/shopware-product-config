@@ -99,7 +99,7 @@ onClickOutside(refSideBar, () => {
             </p>
           </div>
           <button
-            :disabled="groupsData[selectedGroupIndex].required === 1 && !selectedLabel[selectedGroupIndex]" 
+            :disabled="groupsData[selectedGroupIndex].required === 1 && !selectedLabel[selectedGroupIndex]"     
             :enabled="groupsData[selectedGroupIndex].required !== 1"
             @click="nextGroup"
             class="bg-[#404853] w-full p-5 sm:p-2 text-white text-base font-medium disabled:cursor-not-allowed disabled:opacity-50"
