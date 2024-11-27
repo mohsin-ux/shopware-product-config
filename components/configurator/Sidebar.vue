@@ -2,8 +2,15 @@
 // import { useFetchData } from "~/composables/configurator/fetchData";
 import { PROVIDED_KEY } from "~/constants";
 import SideBarMenu from "./SideBarMenu.vue";
+
+const props = defineProps<{
+  isMenuVisible: boolean;
+}>();
+const emit = defineEmits<{
+  (e: "menuVisible"): void;
+}>();
 const { kitchenzModalController }: any = inject("close");
-const isMenuVisible = ref<boolean>(false);
+// const isMenuVisible = ref<boolean>(false);
 const selectedLabelsArray = computed(() => Object.keys(selectedLabel.value));
 
 const {
@@ -16,7 +23,9 @@ const {
 }: any = inject(PROVIDED_KEY);
 
 function toggleMenuVisible() {
-  isMenuVisible.value = !isMenuVisible.value;
+  console.log("toggleMenuVisible");
+  // isMenuVisible.value = !isMenuVisible.value;
+  emit("menuVisible");
 }
 
 function nextGroup() {
@@ -29,6 +38,7 @@ function nextGroup() {
     selectedLabelsArray.value.length - 1 === groupsData.value.length - 1 &&
     selectedGroupIndex.value === groupsData.value.length - 1
   ) {
+    console.log("close");
     kitchenzModalController.close();
   } else if (
     selectedLabel.value[selectedGroupIndex.value - 1] &&
@@ -41,12 +51,22 @@ function previousGroup() {
   selectedGroupIndex.value--;
   setCurrentGroup(selectedGroupIndex.value);
 }
+const refSideBar = useTemplateRef("sideBar");
+onClickOutside(refSideBar, () => {
+  if (props.isMenuVisible) {
+    // toggleMenuVisible();
+    emit("menuVisible");
+  }
+});
 </script>
 
 <template>
-  <div class="max-sm:w-full h-content relative bg-[#EEEDE8] max-sm:sticky bottom-0">
+  <div
+    ref="sideBar"
+    class="max-sm:w-full h-content relative bg-[#EEEDE8] max-sm:sticky bottom-0"
+  >
     <div
-      class="sm:flex sm:flex-col bg-[#EEEDE8] sm:justify-between -mt-4 sm:w-[310px] sm:h-full w-full box-border max-sm:fixed bottom-0"  
+      class="sm:flex sm:flex-col bg-[#EEEDE8] sm:justify-between -mt-4 sm:w-[310px] sm:h-full w-full box-border max-sm:fixed bottom-0"
     >
       <SideBarMenu
         :isMenuVisible="isMenuVisible"
@@ -79,9 +99,12 @@ function previousGroup() {
             </p>
           </div>
           <button
+            :disabled="groupsData[selectedGroupIndex].required === 1 && !selectedLabel[selectedGroupIndex]" 
+            :enabled="groupsData[selectedGroupIndex].required !== 1"
             @click="nextGroup"
-            class="bg-[#404853] w-full p-5 sm:p-2 text-white text-base font-medium"
-          >
+            class="bg-[#404853] w-full p-5 sm:p-2 text-white text-base font-medium disabled:cursor-not-allowed disabled:opacity-50"
+            >
+            <!-- :class="{' disabled:opacity-50 disabled:cursor-not-allowed': groupsData[selectedGroupIndex].required === 1}" -->
             <span v-if="selectedGroupIndex < groupsData.length - 1"
               >Weiter mit {{ nextGroupLabel }}
             </span>

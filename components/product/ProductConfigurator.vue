@@ -5,6 +5,7 @@ import { PROVIDED_KEY } from "~/constants";
 import type { AllData } from "~/types/allData";
 
 const allData: AllData = await useConfigState();
+const isMenuVisible = ref<boolean>(false);
 const emit = defineEmits<{
   (e: "dataReady"): void;
 }>();
@@ -13,6 +14,9 @@ onMounted(() => {
 });
 
 provide(PROVIDED_KEY, allData);
+function toggleMenuVisible() {
+  isMenuVisible.value = !isMenuVisible.value;
+}
 </script>
 
 <template>
@@ -42,7 +46,12 @@ provide(PROVIDED_KEY, allData);
       <ConfiguratorDimensionsMenu v-show="allData.type.value === 2" />
       <ConfiguratorDescription v-show="allData.type.value === 3" />
     </div>
-    <ConfiguratorSidebar :class="{ 'max-sm:hidden': allData.isImageVisible.value }" />
+
+    <ConfiguratorSidebar
+      @menu-visible="toggleMenuVisible"
+      :isMenuVisible="isMenuVisible"
+      :class="{ 'max-sm:hidden': allData.isImageVisible.value }"
+    />
   </div>
 </template>
 <style scoped>

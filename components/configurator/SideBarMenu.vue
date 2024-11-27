@@ -6,6 +6,7 @@ const emit = defineEmits<{
   (e: "showMenu"): void;
 }>();
 
+// const refSideBar = useTemplateRef("sideBarMenu");
 const {
   groupsData,
   selectedLabel,
@@ -29,10 +30,14 @@ function handleClick(index: number, label: string) {
     emit("showMenu");
   }
 }
+// onClickOutside(refSideBar, () => {
+//   emit("showMenu");
+// })
 </script>
 
 <template>
   <div
+    ref="sideBarMenu"
     class="w-full sm:h-125 z-0 transition-all p-4 max-sm:rounded-t-2xl sm:overflow-y-auto sm:overflow-x-hidden relative"
     :class="{ 'hidden sm:block': !isMenuVisible }"
   >
@@ -44,35 +49,37 @@ function handleClick(index: number, label: string) {
     </div>
 
     <!-- <div cla"> -->
+    <div
+      v-for="(groupData, index) in groupsData"
+      class="py-2 border-b border-[#DEDAD4] flex items-center cursor-pointer"
+    >
       <div
-        v-for="(groupData, index) in groupsData"
-        class="py-2 border-b border-[#DEDAD4] flex items-center cursor-pointer"
+        @click="handleClick(index, groupData.groupLabel.value)"
+        class="w-full bg-none text-start flex items-center gap-1"
+        :class="{ 'font-bold': index === selectedGroupIndex }"
       >
-        <div
-          @click="handleClick(index, groupData.groupLabel.value)"
-          class="w-full bg-none text-start flex items-center gap-1"
-          :class="{ 'font-bold': index === selectedGroupIndex }"
-        >
-          <div class="flex items-center gap-2">
-            <span
-              class="w-3 h-3 rotate-45 absolute -left-1.5 bg-white"
-              :class="{ hidden: index !== selectedGroupIndex }"
-            ></span>
-            <p>{{ index + 1 }}.</p>
-            <p class="w-24 hyphens-auto break-words text-[14px]" lang="de">
-              {{ groupData.groupLabel }}
-            </p>
-          </div>
+        <div class="flex items-center gap-2">
+          <span
+            class="w-3 h-3 rotate-45 absolute -left-1.5 bg-white"
+            :class="{ hidden: index !== selectedGroupIndex }"
+          ></span>
+          <p>{{ index + 1 }}.</p>
+          <p class="w-24 hyphens-auto break-words text-[14px]" lang="de">
+            {{ groupData.groupLabel }}
+          <span v-if="groupData.required" class="text-[#DA6649]">*</span>
 
-          <div
-            class="text-red text-[14px] flex items-center gap-1 hyphens-auto break-words"
-            v-if="selectedLabel[index]"
-          >
-            <IconsRedTick />
-            {{ selectedLabel[index] || "" }}
-          </div>
+          </p>
+        </div>
+
+        <div
+          class="text-[#DA6649] text-[14px] flex items-center gap-1 hyphens-auto break-words"
+          v-if="selectedLabel[index]"
+        >
+          <IconsRedTick />
+          {{ selectedLabel[index] || "" }}
         </div>
       </div>
+    </div>
     <!-- </div> -->
   </div>
 </template>
